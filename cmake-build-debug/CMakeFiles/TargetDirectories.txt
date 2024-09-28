@@ -15,3 +15,11 @@ D:/cpl/2024-cpl-coding-0/cmake-build-debug/1-types-io/CMakeFiles/scanf-c17-ex2.d
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/1-types-io/CMakeFiles/scanf-c17-ex3.dir
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/1-types-io/CMakeFiles/edit_cache.dir
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/1-types-io/CMakeFiles/rebuild_cache.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/2-if/CMakeFiles/min-of-two.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/2-if/CMakeFiles/min-of-three.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/2-if/CMakeFiles/leap-if-else.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/2-if/CMakeFiles/leap-else-if.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/2-if/CMakeFiles/leap-elseif.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/2-if/CMakeFiles/leap.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/2-if/CMakeFiles/edit_cache.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/2-if/CMakeFiles/rebuild_cache.dir
