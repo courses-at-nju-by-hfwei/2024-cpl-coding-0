@@ -393,6 +393,72 @@ build 1-types-io/scanf-ub.exe: C_EXECUTABLE_LINKER__scanf-ub_Debug 1-types-io/CM
   TARGET_IMPLIB = 1-types-io\libscanf-ub.dll.a
   TARGET_PDB = scanf-ub.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target scanf-c17-ex2
+
+
+#############################################
+# Order-only phony target for scanf-c17-ex2
+
+build cmake_object_order_depends_target_scanf-c17-ex2: phony || .
+
+build 1-types-io/CMakeFiles/scanf-c17-ex2.dir/scanf-c17-ex2.c.obj: C_COMPILER__scanf-c17-ex2_unscanned_Debug D$:/cpl/2024-cpl-coding-0/1-types-io/scanf-c17-ex2.c || cmake_object_order_depends_target_scanf-c17-ex2
+  DEP_FILE = 1-types-io\CMakeFiles\scanf-c17-ex2.dir\scanf-c17-ex2.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 1-types-io\CMakeFiles\scanf-c17-ex2.dir
+  OBJECT_FILE_DIR = 1-types-io\CMakeFiles\scanf-c17-ex2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target scanf-c17-ex2
+
+
+#############################################
+# Link the executable 1-types-io\scanf-c17-ex2.exe
+
+build 1-types-io/scanf-c17-ex2.exe: C_EXECUTABLE_LINKER__scanf-c17-ex2_Debug 1-types-io/CMakeFiles/scanf-c17-ex2.dir/scanf-c17-ex2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 1-types-io\CMakeFiles\scanf-c17-ex2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1-types-io\scanf-c17-ex2.exe
+  TARGET_IMPLIB = 1-types-io\libscanf-c17-ex2.dll.a
+  TARGET_PDB = scanf-c17-ex2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target scanf-c17-ex3
+
+
+#############################################
+# Order-only phony target for scanf-c17-ex3
+
+build cmake_object_order_depends_target_scanf-c17-ex3: phony || .
+
+build 1-types-io/CMakeFiles/scanf-c17-ex3.dir/scanf-c17-ex3.c.obj: C_COMPILER__scanf-c17-ex3_unscanned_Debug D$:/cpl/2024-cpl-coding-0/1-types-io/scanf-c17-ex3.c || cmake_object_order_depends_target_scanf-c17-ex3
+  DEP_FILE = 1-types-io\CMakeFiles\scanf-c17-ex3.dir\scanf-c17-ex3.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 1-types-io\CMakeFiles\scanf-c17-ex3.dir
+  OBJECT_FILE_DIR = 1-types-io\CMakeFiles\scanf-c17-ex3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target scanf-c17-ex3
+
+
+#############################################
+# Link the executable 1-types-io\scanf-c17-ex3.exe
+
+build 1-types-io/scanf-c17-ex3.exe: C_EXECUTABLE_LINKER__scanf-c17-ex3_Debug 1-types-io/CMakeFiles/scanf-c17-ex3.dir/scanf-c17-ex3.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 1-types-io\CMakeFiles\scanf-c17-ex3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1-types-io\scanf-c17-ex3.exe
+  TARGET_IMPLIB = 1-types-io\libscanf-c17-ex3.dll.a
+  TARGET_PDB = scanf-c17-ex3.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -447,6 +513,14 @@ build printf-ub: phony 1-types-io/printf-ub.exe
 
 build printf-ub.exe: phony 1-types-io/printf-ub.exe
 
+build scanf-c17-ex2: phony 1-types-io/scanf-c17-ex2.exe
+
+build scanf-c17-ex2.exe: phony 1-types-io/scanf-c17-ex2.exe
+
+build scanf-c17-ex3: phony 1-types-io/scanf-c17-ex3.exe
+
+build scanf-c17-ex3.exe: phony 1-types-io/scanf-c17-ex3.exe
+
 build scanf-ub: phony 1-types-io/scanf-ub.exe
 
 build scanf-ub.exe: phony 1-types-io/scanf-ub.exe
@@ -477,7 +551,7 @@ build 0-intro/all: phony 0-intro/hello.exe 0-intro/guess.exe
 #############################################
 # Folder: D:/cpl/2024-cpl-coding-0/cmake-build-debug/1-types-io
 
-build 1-types-io/all: phony 1-types-io/circle.exe 1-types-io/sphere.exe 1-types-io/mol.exe 1-types-io/admin.exe 1-types-io/admin-scanf.exe 1-types-io/printf-ub.exe 1-types-io/scanf-ub.exe
+build 1-types-io/all: phony 1-types-io/circle.exe 1-types-io/sphere.exe 1-types-io/mol.exe 1-types-io/admin.exe 1-types-io/admin-scanf.exe 1-types-io/printf-ub.exe 1-types-io/scanf-ub.exe 1-types-io/scanf-c17-ex2.exe 1-types-io/scanf-c17-ex3.exe
 
 # =============================================================================
 # Built-in targets

@@ -11,5 +11,7 @@ D:/cpl/2024-cpl-coding-0/cmake-build-debug/1-types-io/CMakeFiles/admin.dir
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/1-types-io/CMakeFiles/admin-scanf.dir
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/1-types-io/CMakeFiles/printf-ub.dir
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/1-types-io/CMakeFiles/scanf-ub.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/1-types-io/CMakeFiles/scanf-c17-ex2.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/1-types-io/CMakeFiles/scanf-c17-ex3.dir
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/1-types-io/CMakeFiles/edit_cache.dir
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/1-types-io/CMakeFiles/rebuild_cache.dir
