@@ -1,5 +1,3 @@
-// Created by hfwei on 2024/9/28.
-
 #include <stdio.h>
 
 int main(void) {
@@ -8,7 +6,7 @@ int main(void) {
 
   int leap = 0;
 
-  // TODO: leap year or not (elseif)
+  // TODO: leap year or not (logical expressions)
 
   if (leap == 0) {
     printf("%d is a common year\n", year);

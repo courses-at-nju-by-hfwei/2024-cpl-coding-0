@@ -1,5 +1,3 @@
-// Created by hfwei on 2024/9/28.
-
 #include <stdio.h>
 
 int main(void) {
