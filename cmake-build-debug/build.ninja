@@ -40,72 +40,6 @@ include CMakeFiles/rules.ninja
 # Logical path to working directory; prefix for absolute paths.
 
 cmake_ninja_workdir = D$:/cpl/2024-cpl-coding-0/cmake-build-debug/
-# =============================================================================
-# Object build statements for EXECUTABLE target hello
-
-
-#############################################
-# Order-only phony target for hello
-
-build cmake_object_order_depends_target_hello: phony || .
-
-build CMakeFiles/hello.dir/hello.c.obj: C_COMPILER__hello_unscanned_Debug D$:/cpl/2024-cpl-coding-0/hello.c || cmake_object_order_depends_target_hello
-  DEP_FILE = CMakeFiles\hello.dir\hello.c.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\hello.dir
-  OBJECT_FILE_DIR = CMakeFiles\hello.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target hello
-
-
-#############################################
-# Link the executable hello.exe
-
-build hello.exe: C_EXECUTABLE_LINKER__hello_Debug CMakeFiles/hello.dir/hello.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\hello.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = hello.exe
-  TARGET_IMPLIB = libhello.dll.a
-  TARGET_PDB = hello.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target guess
-
-
-#############################################
-# Order-only phony target for guess
-
-build cmake_object_order_depends_target_guess: phony || .
-
-build CMakeFiles/guess.dir/guess.c.obj: C_COMPILER__guess_unscanned_Debug D$:/cpl/2024-cpl-coding-0/guess.c || cmake_object_order_depends_target_guess
-  DEP_FILE = CMakeFiles\guess.dir\guess.c.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\guess.dir
-  OBJECT_FILE_DIR = CMakeFiles\guess.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target guess
-
-
-#############################################
-# Link the executable guess.exe
-
-build guess.exe: C_EXECUTABLE_LINKER__guess_Debug CMakeFiles/guess.dir/guess.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\guess.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = guess.exe
-  TARGET_IMPLIB = libguess.dll.a
-  TARGET_PDB = guess.exe.dbg
-
 
 #############################################
 # Utility command for edit_cache
@@ -130,11 +64,396 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/cpl/2024-cpl-coding-0/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target hello
+
+
+#############################################
+# Order-only phony target for hello
+
+build cmake_object_order_depends_target_hello: phony || .
+
+build 0-intro/CMakeFiles/hello.dir/hello.c.obj: C_COMPILER__hello_unscanned_Debug D$:/cpl/2024-cpl-coding-0/0-intro/hello.c || cmake_object_order_depends_target_hello
+  DEP_FILE = 0-intro\CMakeFiles\hello.dir\hello.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 0-intro\CMakeFiles\hello.dir
+  OBJECT_FILE_DIR = 0-intro\CMakeFiles\hello.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target hello
+
+
+#############################################
+# Link the executable 0-intro\hello.exe
+
+build 0-intro/hello.exe: C_EXECUTABLE_LINKER__hello_Debug 0-intro/CMakeFiles/hello.dir/hello.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 0-intro\CMakeFiles\hello.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 0-intro\hello.exe
+  TARGET_IMPLIB = 0-intro\libhello.dll.a
+  TARGET_PDB = hello.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target guess
+
+
+#############################################
+# Order-only phony target for guess
+
+build cmake_object_order_depends_target_guess: phony || .
+
+build 0-intro/CMakeFiles/guess.dir/guess.c.obj: C_COMPILER__guess_unscanned_Debug D$:/cpl/2024-cpl-coding-0/0-intro/guess.c || cmake_object_order_depends_target_guess
+  DEP_FILE = 0-intro\CMakeFiles\guess.dir\guess.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 0-intro\CMakeFiles\guess.dir
+  OBJECT_FILE_DIR = 0-intro\CMakeFiles\guess.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target guess
+
+
+#############################################
+# Link the executable 0-intro\guess.exe
+
+build 0-intro/guess.exe: C_EXECUTABLE_LINKER__guess_Debug 0-intro/CMakeFiles/guess.dir/guess.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 0-intro\CMakeFiles\guess.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 0-intro\guess.exe
+  TARGET_IMPLIB = 0-intro\libguess.dll.a
+  TARGET_PDB = guess.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 0-intro/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\cpl\2024-cpl-coding-0\cmake-build-debug\0-intro && "C:\Users\hfwei\AppData\Local\Programs\CLion 2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 0-intro/edit_cache: phony 0-intro/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 0-intro/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\cpl\2024-cpl-coding-0\cmake-build-debug\0-intro && "C:\Users\hfwei\AppData\Local\Programs\CLion 2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\cpl\2024-cpl-coding-0 -BD:\cpl\2024-cpl-coding-0\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 0-intro/rebuild_cache: phony 0-intro/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/cpl/2024-cpl-coding-0/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target circle
+
+
+#############################################
+# Order-only phony target for circle
+
+build cmake_object_order_depends_target_circle: phony || .
+
+build 1-types-io/CMakeFiles/circle.dir/circle.c.obj: C_COMPILER__circle_unscanned_Debug D$:/cpl/2024-cpl-coding-0/1-types-io/circle.c || cmake_object_order_depends_target_circle
+  DEP_FILE = 1-types-io\CMakeFiles\circle.dir\circle.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 1-types-io\CMakeFiles\circle.dir
+  OBJECT_FILE_DIR = 1-types-io\CMakeFiles\circle.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target circle
+
+
+#############################################
+# Link the executable 1-types-io\circle.exe
+
+build 1-types-io/circle.exe: C_EXECUTABLE_LINKER__circle_Debug 1-types-io/CMakeFiles/circle.dir/circle.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 1-types-io\CMakeFiles\circle.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1-types-io\circle.exe
+  TARGET_IMPLIB = 1-types-io\libcircle.dll.a
+  TARGET_PDB = circle.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sphere
+
+
+#############################################
+# Order-only phony target for sphere
+
+build cmake_object_order_depends_target_sphere: phony || .
+
+build 1-types-io/CMakeFiles/sphere.dir/sphere.c.obj: C_COMPILER__sphere_unscanned_Debug D$:/cpl/2024-cpl-coding-0/1-types-io/sphere.c || cmake_object_order_depends_target_sphere
+  DEP_FILE = 1-types-io\CMakeFiles\sphere.dir\sphere.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 1-types-io\CMakeFiles\sphere.dir
+  OBJECT_FILE_DIR = 1-types-io\CMakeFiles\sphere.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sphere
+
+
+#############################################
+# Link the executable 1-types-io\sphere.exe
+
+build 1-types-io/sphere.exe: C_EXECUTABLE_LINKER__sphere_Debug 1-types-io/CMakeFiles/sphere.dir/sphere.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lm  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 1-types-io\CMakeFiles\sphere.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1-types-io\sphere.exe
+  TARGET_IMPLIB = 1-types-io\libsphere.dll.a
+  TARGET_PDB = sphere.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target mol
+
+
+#############################################
+# Order-only phony target for mol
+
+build cmake_object_order_depends_target_mol: phony || .
+
+build 1-types-io/CMakeFiles/mol.dir/mol.c.obj: C_COMPILER__mol_unscanned_Debug D$:/cpl/2024-cpl-coding-0/1-types-io/mol.c || cmake_object_order_depends_target_mol
+  DEP_FILE = 1-types-io\CMakeFiles\mol.dir\mol.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 1-types-io\CMakeFiles\mol.dir
+  OBJECT_FILE_DIR = 1-types-io\CMakeFiles\mol.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target mol
+
+
+#############################################
+# Link the executable 1-types-io\mol.exe
+
+build 1-types-io/mol.exe: C_EXECUTABLE_LINKER__mol_Debug 1-types-io/CMakeFiles/mol.dir/mol.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 1-types-io\CMakeFiles\mol.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1-types-io\mol.exe
+  TARGET_IMPLIB = 1-types-io\libmol.dll.a
+  TARGET_PDB = mol.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target admin
+
+
+#############################################
+# Order-only phony target for admin
+
+build cmake_object_order_depends_target_admin: phony || .
+
+build 1-types-io/CMakeFiles/admin.dir/admin.c.obj: C_COMPILER__admin_unscanned_Debug D$:/cpl/2024-cpl-coding-0/1-types-io/admin.c || cmake_object_order_depends_target_admin
+  DEP_FILE = 1-types-io\CMakeFiles\admin.dir\admin.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 1-types-io\CMakeFiles\admin.dir
+  OBJECT_FILE_DIR = 1-types-io\CMakeFiles\admin.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target admin
+
+
+#############################################
+# Link the executable 1-types-io\admin.exe
+
+build 1-types-io/admin.exe: C_EXECUTABLE_LINKER__admin_Debug 1-types-io/CMakeFiles/admin.dir/admin.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 1-types-io\CMakeFiles\admin.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1-types-io\admin.exe
+  TARGET_IMPLIB = 1-types-io\libadmin.dll.a
+  TARGET_PDB = admin.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target admin-scanf
+
+
+#############################################
+# Order-only phony target for admin-scanf
+
+build cmake_object_order_depends_target_admin-scanf: phony || .
+
+build 1-types-io/CMakeFiles/admin-scanf.dir/admin-scanf.c.obj: C_COMPILER__admin-scanf_unscanned_Debug D$:/cpl/2024-cpl-coding-0/1-types-io/admin-scanf.c || cmake_object_order_depends_target_admin-scanf
+  DEP_FILE = 1-types-io\CMakeFiles\admin-scanf.dir\admin-scanf.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 1-types-io\CMakeFiles\admin-scanf.dir
+  OBJECT_FILE_DIR = 1-types-io\CMakeFiles\admin-scanf.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target admin-scanf
+
+
+#############################################
+# Link the executable 1-types-io\admin-scanf.exe
+
+build 1-types-io/admin-scanf.exe: C_EXECUTABLE_LINKER__admin-scanf_Debug 1-types-io/CMakeFiles/admin-scanf.dir/admin-scanf.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 1-types-io\CMakeFiles\admin-scanf.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1-types-io\admin-scanf.exe
+  TARGET_IMPLIB = 1-types-io\libadmin-scanf.dll.a
+  TARGET_PDB = admin-scanf.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target printf-ub
+
+
+#############################################
+# Order-only phony target for printf-ub
+
+build cmake_object_order_depends_target_printf-ub: phony || .
+
+build 1-types-io/CMakeFiles/printf-ub.dir/printf-ub.c.obj: C_COMPILER__printf-ub_unscanned_Debug D$:/cpl/2024-cpl-coding-0/1-types-io/printf-ub.c || cmake_object_order_depends_target_printf-ub
+  DEP_FILE = 1-types-io\CMakeFiles\printf-ub.dir\printf-ub.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 1-types-io\CMakeFiles\printf-ub.dir
+  OBJECT_FILE_DIR = 1-types-io\CMakeFiles\printf-ub.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target printf-ub
+
+
+#############################################
+# Link the executable 1-types-io\printf-ub.exe
+
+build 1-types-io/printf-ub.exe: C_EXECUTABLE_LINKER__printf-ub_Debug 1-types-io/CMakeFiles/printf-ub.dir/printf-ub.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 1-types-io\CMakeFiles\printf-ub.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1-types-io\printf-ub.exe
+  TARGET_IMPLIB = 1-types-io\libprintf-ub.dll.a
+  TARGET_PDB = printf-ub.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target scanf-ub
+
+
+#############################################
+# Order-only phony target for scanf-ub
+
+build cmake_object_order_depends_target_scanf-ub: phony || .
+
+build 1-types-io/CMakeFiles/scanf-ub.dir/scanf-ub.c.obj: C_COMPILER__scanf-ub_unscanned_Debug D$:/cpl/2024-cpl-coding-0/1-types-io/scanf-ub.c || cmake_object_order_depends_target_scanf-ub
+  DEP_FILE = 1-types-io\CMakeFiles\scanf-ub.dir\scanf-ub.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 1-types-io\CMakeFiles\scanf-ub.dir
+  OBJECT_FILE_DIR = 1-types-io\CMakeFiles\scanf-ub.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target scanf-ub
+
+
+#############################################
+# Link the executable 1-types-io\scanf-ub.exe
+
+build 1-types-io/scanf-ub.exe: C_EXECUTABLE_LINKER__scanf-ub_Debug 1-types-io/CMakeFiles/scanf-ub.dir/scanf-ub.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 1-types-io\CMakeFiles\scanf-ub.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1-types-io\scanf-ub.exe
+  TARGET_IMPLIB = 1-types-io\libscanf-ub.dll.a
+  TARGET_PDB = scanf-ub.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 1-types-io/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\cpl\2024-cpl-coding-0\cmake-build-debug\1-types-io && "C:\Users\hfwei\AppData\Local\Programs\CLion 2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 1-types-io/edit_cache: phony 1-types-io/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 1-types-io/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\cpl\2024-cpl-coding-0\cmake-build-debug\1-types-io && "C:\Users\hfwei\AppData\Local\Programs\CLion 2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\cpl\2024-cpl-coding-0 -BD:\cpl\2024-cpl-coding-0\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 1-types-io/rebuild_cache: phony 1-types-io/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
-build guess: phony guess.exe
+build admin: phony 1-types-io/admin.exe
 
-build hello: phony hello.exe
+build admin-scanf: phony 1-types-io/admin-scanf.exe
+
+build admin-scanf.exe: phony 1-types-io/admin-scanf.exe
+
+build admin.exe: phony 1-types-io/admin.exe
+
+build circle: phony 1-types-io/circle.exe
+
+build circle.exe: phony 1-types-io/circle.exe
+
+build guess: phony 0-intro/guess.exe
+
+build guess.exe: phony 0-intro/guess.exe
+
+build hello: phony 0-intro/hello.exe
+
+build hello.exe: phony 0-intro/hello.exe
+
+build mol: phony 1-types-io/mol.exe
+
+build mol.exe: phony 1-types-io/mol.exe
+
+build printf-ub: phony 1-types-io/printf-ub.exe
+
+build printf-ub.exe: phony 1-types-io/printf-ub.exe
+
+build scanf-ub: phony 1-types-io/scanf-ub.exe
+
+build scanf-ub.exe: phony 1-types-io/scanf-ub.exe
+
+build sphere: phony 1-types-io/sphere.exe
+
+build sphere.exe: phony 1-types-io/sphere.exe
 
 # =============================================================================
 # Folder targets.
@@ -144,7 +463,21 @@ build hello: phony hello.exe
 #############################################
 # Folder: D:/cpl/2024-cpl-coding-0/cmake-build-debug
 
-build all: phony hello.exe guess.exe
+build all: phony 0-intro/all 1-types-io/all
+
+# =============================================================================
+
+#############################################
+# Folder: D:/cpl/2024-cpl-coding-0/cmake-build-debug/0-intro
+
+build 0-intro/all: phony 0-intro/hello.exe 0-intro/guess.exe
+
+# =============================================================================
+
+#############################################
+# Folder: D:/cpl/2024-cpl-coding-0/cmake-build-debug/1-types-io
+
+build 1-types-io/all: phony 1-types-io/circle.exe 1-types-io/sphere.exe 1-types-io/mol.exe 1-types-io/admin.exe 1-types-io/admin-scanf.exe 1-types-io/printf-ub.exe 1-types-io/scanf-ub.exe
 
 # =============================================================================
 # Built-in targets
@@ -153,14 +486,14 @@ build all: phony hello.exe guess.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.3/CMakeCCompiler.cmake CMakeFiles/3.30.3/CMakeRCCompiler.cmake CMakeFiles/3.30.3/CMakeSystem.cmake D$:/cpl/2024-cpl-coding-0/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.3/CMakeCCompiler.cmake CMakeFiles/3.30.3/CMakeRCCompiler.cmake CMakeFiles/3.30.3/CMakeSystem.cmake D$:/cpl/2024-cpl-coding-0/0-intro/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/1-types-io/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.3/CMakeCCompiler.cmake CMakeFiles/3.30.3/CMakeRCCompiler.cmake CMakeFiles/3.30.3/CMakeSystem.cmake D$:/cpl/2024-cpl-coding-0/CMakeLists.txt: phony
+build C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.3/CMakeCCompiler.cmake CMakeFiles/3.30.3/CMakeRCCompiler.cmake CMakeFiles/3.30.3/CMakeSystem.cmake D$:/cpl/2024-cpl-coding-0/0-intro/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/1-types-io/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/CMakeLists.txt: phony
 
 
 #############################################

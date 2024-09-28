@@ -1,4 +1,15 @@
-D:/cpl/2024-cpl-coding-0/cmake-build-debug/CMakeFiles/hello.dir
-D:/cpl/2024-cpl-coding-0/cmake-build-debug/CMakeFiles/guess.dir
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/0-intro/CMakeFiles/hello.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/0-intro/CMakeFiles/guess.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/0-intro/CMakeFiles/edit_cache.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/0-intro/CMakeFiles/rebuild_cache.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/1-types-io/CMakeFiles/circle.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/1-types-io/CMakeFiles/sphere.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/1-types-io/CMakeFiles/mol.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/1-types-io/CMakeFiles/admin.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/1-types-io/CMakeFiles/admin-scanf.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/1-types-io/CMakeFiles/printf-ub.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/1-types-io/CMakeFiles/scanf-ub.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/1-types-io/CMakeFiles/edit_cache.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/1-types-io/CMakeFiles/rebuild_cache.dir
