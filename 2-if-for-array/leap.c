@@ -7,6 +7,23 @@ int main(void) {
   int leap = 0;
 
   // TODO: leap year or not (logical expressions)
+  // &&: and (&)
+  // ||: or (|)
+  // !: not
+  // short-circuit
+  if ((year % 4 == 0 && year % 100 != 0) ||
+      year % 400 == 0) {
+    leap = 1;
+  }
+
+//  leap = (year % 4 == 0 && year % 100 != 0) ||
+//         year % 400 == 0;
+//  leap = 5;
+//  if (leap) { // if (leap != 0)
+//
+//  } else {
+//
+//  }
 
   if (leap == 0) {
     printf("%d is a common year\n", year);
