@@ -25,3 +25,14 @@ D:/cpl/2024-cpl-coding-0/cmake-build-debug/2-if-for-array/CMakeFiles/leap-elseif
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/2-if-for-array/CMakeFiles/leap.dir
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/2-if-for-array/CMakeFiles/edit_cache.dir
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/2-if-for-array/CMakeFiles/rebuild_cache.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/3-for-a-while/CMakeFiles/stars.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/3-for-a-while/CMakeFiles/primes.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/3-for-a-while/CMakeFiles/binary-search.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/3-for-a-while/CMakeFiles/binary-search-for.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/3-for-a-while/CMakeFiles/digits-while.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/3-for-a-while/CMakeFiles/digits-do-while.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/3-for-a-while/CMakeFiles/digits-for.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/3-for-a-while/CMakeFiles/selection-sort.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/3-for-a-while/CMakeFiles/palindrome.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/3-for-a-while/CMakeFiles/edit_cache.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/3-for-a-while/CMakeFiles/rebuild_cache.dir
