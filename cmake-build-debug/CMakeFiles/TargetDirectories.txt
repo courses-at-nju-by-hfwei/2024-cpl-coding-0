@@ -36,3 +36,11 @@ D:/cpl/2024-cpl-coding-0/cmake-build-debug/3-for-a-while/CMakeFiles/selection-so
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/3-for-a-while/CMakeFiles/palindrome.dir
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/3-for-a-while/CMakeFiles/edit_cache.dir
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/3-for-a-while/CMakeFiles/rebuild_cache.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/4-loops/CMakeFiles/game-of-life.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/4-loops/CMakeFiles/game-of-life-chatgpt.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/4-loops/CMakeFiles/insertion-sort.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/4-loops/CMakeFiles/insertion-sort-bsearch.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/4-loops/CMakeFiles/binary-insertion-sort.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/4-loops/CMakeFiles/merge.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/4-loops/CMakeFiles/edit_cache.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/4-loops/CMakeFiles/rebuild_cache.dir
