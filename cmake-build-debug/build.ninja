@@ -1326,6 +1326,397 @@ build 4-loops/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build 4-loops/rebuild_cache: phony 4-loops/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/cpl/2024-cpl-coding-0/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target leap-func
+
+
+#############################################
+# Order-only phony target for leap-func
+
+build cmake_object_order_depends_target_leap-func: phony || .
+
+build 5-function/CMakeFiles/leap-func.dir/leap.c.obj: C_COMPILER__leap-func_unscanned_Debug D$:/cpl/2024-cpl-coding-0/5-function/leap.c || cmake_object_order_depends_target_leap-func
+  DEP_FILE = 5-function\CMakeFiles\leap-func.dir\leap.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 5-function\CMakeFiles\leap-func.dir
+  OBJECT_FILE_DIR = 5-function\CMakeFiles\leap-func.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target leap-func
+
+
+#############################################
+# Link the executable 5-function\leap-func.exe
+
+build 5-function/leap-func.exe: C_EXECUTABLE_LINKER__leap-func_Debug 5-function/CMakeFiles/leap-func.dir/leap.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 5-function\CMakeFiles\leap-func.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5-function\leap-func.exe
+  TARGET_IMPLIB = 5-function\libleap-func.dll.a
+  TARGET_PDB = leap-func.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target primes-func
+
+
+#############################################
+# Order-only phony target for primes-func
+
+build cmake_object_order_depends_target_primes-func: phony || .
+
+build 5-function/CMakeFiles/primes-func.dir/primes.c.obj: C_COMPILER__primes-func_unscanned_Debug D$:/cpl/2024-cpl-coding-0/5-function/primes.c || cmake_object_order_depends_target_primes-func
+  DEP_FILE = 5-function\CMakeFiles\primes-func.dir\primes.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 5-function\CMakeFiles\primes-func.dir
+  OBJECT_FILE_DIR = 5-function\CMakeFiles\primes-func.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target primes-func
+
+
+#############################################
+# Link the executable 5-function\primes-func.exe
+
+build 5-function/primes-func.exe: C_EXECUTABLE_LINKER__primes-func_Debug 5-function/CMakeFiles/primes-func.dir/primes.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 5-function\CMakeFiles\primes-func.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5-function\primes-func.exe
+  TARGET_IMPLIB = 5-function\libprimes-func.dll.a
+  TARGET_PDB = primes-func.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target stars-func
+
+
+#############################################
+# Order-only phony target for stars-func
+
+build cmake_object_order_depends_target_stars-func: phony || .
+
+build 5-function/CMakeFiles/stars-func.dir/stars.c.obj: C_COMPILER__stars-func_unscanned_Debug D$:/cpl/2024-cpl-coding-0/5-function/stars.c || cmake_object_order_depends_target_stars-func
+  DEP_FILE = 5-function\CMakeFiles\stars-func.dir\stars.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 5-function\CMakeFiles\stars-func.dir
+  OBJECT_FILE_DIR = 5-function\CMakeFiles\stars-func.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target stars-func
+
+
+#############################################
+# Link the executable 5-function\stars-func.exe
+
+build 5-function/stars-func.exe: C_EXECUTABLE_LINKER__stars-func_Debug 5-function/CMakeFiles/stars-func.dir/stars.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 5-function\CMakeFiles\stars-func.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5-function\stars-func.exe
+  TARGET_IMPLIB = 5-function\libstars-func.dll.a
+  TARGET_PDB = stars-func.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target binary-search-func
+
+
+#############################################
+# Order-only phony target for binary-search-func
+
+build cmake_object_order_depends_target_binary-search-func: phony || .
+
+build 5-function/CMakeFiles/binary-search-func.dir/binary-search.c.obj: C_COMPILER__binary-search-func_unscanned_Debug D$:/cpl/2024-cpl-coding-0/5-function/binary-search.c || cmake_object_order_depends_target_binary-search-func
+  DEP_FILE = 5-function\CMakeFiles\binary-search-func.dir\binary-search.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 5-function\CMakeFiles\binary-search-func.dir
+  OBJECT_FILE_DIR = 5-function\CMakeFiles\binary-search-func.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target binary-search-func
+
+
+#############################################
+# Link the executable 5-function\binary-search-func.exe
+
+build 5-function/binary-search-func.exe: C_EXECUTABLE_LINKER__binary-search-func_Debug 5-function/CMakeFiles/binary-search-func.dir/binary-search.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 5-function\CMakeFiles\binary-search-func.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5-function\binary-search-func.exe
+  TARGET_IMPLIB = 5-function\libbinary-search-func.dll.a
+  TARGET_PDB = binary-search-func.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target palindrome-func
+
+
+#############################################
+# Order-only phony target for palindrome-func
+
+build cmake_object_order_depends_target_palindrome-func: phony || .
+
+build 5-function/CMakeFiles/palindrome-func.dir/palindrome.c.obj: C_COMPILER__palindrome-func_unscanned_Debug D$:/cpl/2024-cpl-coding-0/5-function/palindrome.c || cmake_object_order_depends_target_palindrome-func
+  DEP_FILE = 5-function\CMakeFiles\palindrome-func.dir\palindrome.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 5-function\CMakeFiles\palindrome-func.dir
+  OBJECT_FILE_DIR = 5-function\CMakeFiles\palindrome-func.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target palindrome-func
+
+
+#############################################
+# Link the executable 5-function\palindrome-func.exe
+
+build 5-function/palindrome-func.exe: C_EXECUTABLE_LINKER__palindrome-func_Debug 5-function/CMakeFiles/palindrome-func.dir/palindrome.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 5-function\CMakeFiles\palindrome-func.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5-function\palindrome-func.exe
+  TARGET_IMPLIB = 5-function\libpalindrome-func.dll.a
+  TARGET_PDB = palindrome-func.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target selection-sort-func
+
+
+#############################################
+# Order-only phony target for selection-sort-func
+
+build cmake_object_order_depends_target_selection-sort-func: phony || .
+
+build 5-function/CMakeFiles/selection-sort-func.dir/selection-sort.c.obj: C_COMPILER__selection-sort-func_unscanned_Debug D$:/cpl/2024-cpl-coding-0/5-function/selection-sort.c || cmake_object_order_depends_target_selection-sort-func
+  DEP_FILE = 5-function\CMakeFiles\selection-sort-func.dir\selection-sort.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 5-function\CMakeFiles\selection-sort-func.dir
+  OBJECT_FILE_DIR = 5-function\CMakeFiles\selection-sort-func.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target selection-sort-func
+
+
+#############################################
+# Link the executable 5-function\selection-sort-func.exe
+
+build 5-function/selection-sort-func.exe: C_EXECUTABLE_LINKER__selection-sort-func_Debug 5-function/CMakeFiles/selection-sort-func.dir/selection-sort.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 5-function\CMakeFiles\selection-sort-func.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5-function\selection-sort-func.exe
+  TARGET_IMPLIB = 5-function\libselection-sort-func.dll.a
+  TARGET_PDB = selection-sort-func.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target insertion-sort-func
+
+
+#############################################
+# Order-only phony target for insertion-sort-func
+
+build cmake_object_order_depends_target_insertion-sort-func: phony || .
+
+build 5-function/CMakeFiles/insertion-sort-func.dir/insertion-sort.c.obj: C_COMPILER__insertion-sort-func_unscanned_Debug D$:/cpl/2024-cpl-coding-0/5-function/insertion-sort.c || cmake_object_order_depends_target_insertion-sort-func
+  DEP_FILE = 5-function\CMakeFiles\insertion-sort-func.dir\insertion-sort.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 5-function\CMakeFiles\insertion-sort-func.dir
+  OBJECT_FILE_DIR = 5-function\CMakeFiles\insertion-sort-func.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target insertion-sort-func
+
+
+#############################################
+# Link the executable 5-function\insertion-sort-func.exe
+
+build 5-function/insertion-sort-func.exe: C_EXECUTABLE_LINKER__insertion-sort-func_Debug 5-function/CMakeFiles/insertion-sort-func.dir/insertion-sort.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 5-function\CMakeFiles\insertion-sort-func.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5-function\insertion-sort-func.exe
+  TARGET_IMPLIB = 5-function\libinsertion-sort-func.dll.a
+  TARGET_PDB = insertion-sort-func.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target binary-insertion-sort-func
+
+
+#############################################
+# Order-only phony target for binary-insertion-sort-func
+
+build cmake_object_order_depends_target_binary-insertion-sort-func: phony || .
+
+build 5-function/CMakeFiles/binary-insertion-sort-func.dir/binary-insertion-sort.c.obj: C_COMPILER__binary-insertion-sort-func_unscanned_Debug D$:/cpl/2024-cpl-coding-0/5-function/binary-insertion-sort.c || cmake_object_order_depends_target_binary-insertion-sort-func
+  DEP_FILE = 5-function\CMakeFiles\binary-insertion-sort-func.dir\binary-insertion-sort.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 5-function\CMakeFiles\binary-insertion-sort-func.dir
+  OBJECT_FILE_DIR = 5-function\CMakeFiles\binary-insertion-sort-func.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target binary-insertion-sort-func
+
+
+#############################################
+# Link the executable 5-function\binary-insertion-sort-func.exe
+
+build 5-function/binary-insertion-sort-func.exe: C_EXECUTABLE_LINKER__binary-insertion-sort-func_Debug 5-function/CMakeFiles/binary-insertion-sort-func.dir/binary-insertion-sort.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 5-function\CMakeFiles\binary-insertion-sort-func.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5-function\binary-insertion-sort-func.exe
+  TARGET_IMPLIB = 5-function\libbinary-insertion-sort-func.dll.a
+  TARGET_PDB = binary-insertion-sort-func.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target merge-func
+
+
+#############################################
+# Order-only phony target for merge-func
+
+build cmake_object_order_depends_target_merge-func: phony || .
+
+build 5-function/CMakeFiles/merge-func.dir/merge.c.obj: C_COMPILER__merge-func_unscanned_Debug D$:/cpl/2024-cpl-coding-0/5-function/merge.c || cmake_object_order_depends_target_merge-func
+  DEP_FILE = 5-function\CMakeFiles\merge-func.dir\merge.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 5-function\CMakeFiles\merge-func.dir
+  OBJECT_FILE_DIR = 5-function\CMakeFiles\merge-func.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target merge-func
+
+
+#############################################
+# Link the executable 5-function\merge-func.exe
+
+build 5-function/merge-func.exe: C_EXECUTABLE_LINKER__merge-func_Debug 5-function/CMakeFiles/merge-func.dir/merge.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 5-function\CMakeFiles\merge-func.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5-function\merge-func.exe
+  TARGET_IMPLIB = 5-function\libmerge-func.dll.a
+  TARGET_PDB = merge-func.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target game-of-life-func
+
+
+#############################################
+# Order-only phony target for game-of-life-func
+
+build cmake_object_order_depends_target_game-of-life-func: phony || .
+
+build 5-function/CMakeFiles/game-of-life-func.dir/game-of-life.c.obj: C_COMPILER__game-of-life-func_unscanned_Debug D$:/cpl/2024-cpl-coding-0/5-function/game-of-life.c || cmake_object_order_depends_target_game-of-life-func
+  DEP_FILE = 5-function\CMakeFiles\game-of-life-func.dir\game-of-life.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 5-function\CMakeFiles\game-of-life-func.dir
+  OBJECT_FILE_DIR = 5-function\CMakeFiles\game-of-life-func.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target game-of-life-func
+
+
+#############################################
+# Link the executable 5-function\game-of-life-func.exe
+
+build 5-function/game-of-life-func.exe: C_EXECUTABLE_LINKER__game-of-life-func_Debug 5-function/CMakeFiles/game-of-life-func.dir/game-of-life.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 5-function\CMakeFiles\game-of-life-func.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5-function\game-of-life-func.exe
+  TARGET_IMPLIB = 5-function\libgame-of-life-func.dll.a
+  TARGET_PDB = game-of-life-func.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target game-of-life-transformed
+
+
+#############################################
+# Order-only phony target for game-of-life-transformed
+
+build cmake_object_order_depends_target_game-of-life-transformed: phony || .
+
+build 5-function/CMakeFiles/game-of-life-transformed.dir/game-of-life-transformed.c.obj: C_COMPILER__game-of-life-transformed_unscanned_Debug D$:/cpl/2024-cpl-coding-0/5-function/game-of-life-transformed.c || cmake_object_order_depends_target_game-of-life-transformed
+  DEP_FILE = 5-function\CMakeFiles\game-of-life-transformed.dir\game-of-life-transformed.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 5-function\CMakeFiles\game-of-life-transformed.dir
+  OBJECT_FILE_DIR = 5-function\CMakeFiles\game-of-life-transformed.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target game-of-life-transformed
+
+
+#############################################
+# Link the executable 5-function\game-of-life-transformed.exe
+
+build 5-function/game-of-life-transformed.exe: C_EXECUTABLE_LINKER__game-of-life-transformed_Debug 5-function/CMakeFiles/game-of-life-transformed.dir/game-of-life-transformed.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 5-function\CMakeFiles\game-of-life-transformed.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5-function\game-of-life-transformed.exe
+  TARGET_IMPLIB = 5-function\libgame-of-life-transformed.dll.a
+  TARGET_PDB = game-of-life-transformed.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 5-function/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\cpl\2024-cpl-coding-0\cmake-build-debug\5-function && "C:\Users\hfwei\AppData\Local\Programs\CLion 2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 5-function/edit_cache: phony 5-function/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 5-function/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\cpl\2024-cpl-coding-0\cmake-build-debug\5-function && "C:\Users\hfwei\AppData\Local\Programs\CLion 2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\cpl\2024-cpl-coding-0 -BD:\cpl\2024-cpl-coding-0\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 5-function/rebuild_cache: phony 5-function/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build admin: phony 1-types-io/admin.exe
@@ -1338,6 +1729,10 @@ build admin.exe: phony 1-types-io/admin.exe
 
 build binary-insertion-sort: phony 4-loops/binary-insertion-sort.exe
 
+build binary-insertion-sort-func: phony 5-function/binary-insertion-sort-func.exe
+
+build binary-insertion-sort-func.exe: phony 5-function/binary-insertion-sort-func.exe
+
 build binary-insertion-sort.exe: phony 4-loops/binary-insertion-sort.exe
 
 build binary-search: phony 3-for-a-while/binary-search.exe
@@ -1345,6 +1740,10 @@ build binary-search: phony 3-for-a-while/binary-search.exe
 build binary-search-for: phony 3-for-a-while/binary-search-for.exe
 
 build binary-search-for.exe: phony 3-for-a-while/binary-search-for.exe
+
+build binary-search-func: phony 5-function/binary-search-func.exe
+
+build binary-search-func.exe: phony 5-function/binary-search-func.exe
 
 build binary-search.exe: phony 3-for-a-while/binary-search.exe
 
@@ -1370,6 +1769,14 @@ build game-of-life-chatgpt: phony 4-loops/game-of-life-chatgpt.exe
 
 build game-of-life-chatgpt.exe: phony 4-loops/game-of-life-chatgpt.exe
 
+build game-of-life-func: phony 5-function/game-of-life-func.exe
+
+build game-of-life-func.exe: phony 5-function/game-of-life-func.exe
+
+build game-of-life-transformed: phony 5-function/game-of-life-transformed.exe
+
+build game-of-life-transformed.exe: phony 5-function/game-of-life-transformed.exe
+
 build game-of-life.exe: phony 4-loops/game-of-life.exe
 
 build guess: phony 0-intro/guess.exe
@@ -1386,6 +1793,10 @@ build insertion-sort-bsearch: phony 4-loops/insertion-sort-bsearch.exe
 
 build insertion-sort-bsearch.exe: phony 4-loops/insertion-sort-bsearch.exe
 
+build insertion-sort-func: phony 5-function/insertion-sort-func.exe
+
+build insertion-sort-func.exe: phony 5-function/insertion-sort-func.exe
+
 build insertion-sort.exe: phony 4-loops/insertion-sort.exe
 
 build leap: phony 2-if-for-array/leap.exe
@@ -1398,6 +1809,10 @@ build leap-elseif: phony 2-if-for-array/leap-elseif.exe
 
 build leap-elseif.exe: phony 2-if-for-array/leap-elseif.exe
 
+build leap-func: phony 5-function/leap-func.exe
+
+build leap-func.exe: phony 5-function/leap-func.exe
+
 build leap-if-else: phony 2-if-for-array/leap-if-else.exe
 
 build leap-if-else.exe: phony 2-if-for-array/leap-if-else.exe
@@ -1405,6 +1820,10 @@ build leap-if-else.exe: phony 2-if-for-array/leap-if-else.exe
 build leap.exe: phony 2-if-for-array/leap.exe
 
 build merge: phony 4-loops/merge.exe
+
+build merge-func: phony 5-function/merge-func.exe
+
+build merge-func.exe: phony 5-function/merge-func.exe
 
 build merge.exe: phony 4-loops/merge.exe
 
@@ -1430,9 +1849,17 @@ build mol.exe: phony 1-types-io/mol.exe
 
 build palindrome: phony 3-for-a-while/palindrome.exe
 
+build palindrome-func: phony 5-function/palindrome-func.exe
+
+build palindrome-func.exe: phony 5-function/palindrome-func.exe
+
 build palindrome.exe: phony 3-for-a-while/palindrome.exe
 
 build primes: phony 3-for-a-while/primes.exe
+
+build primes-func: phony 5-function/primes-func.exe
+
+build primes-func.exe: phony 5-function/primes-func.exe
 
 build primes.exe: phony 3-for-a-while/primes.exe
 
@@ -1454,6 +1881,10 @@ build scanf-ub.exe: phony 1-types-io/scanf-ub.exe
 
 build selection-sort: phony 3-for-a-while/selection-sort.exe
 
+build selection-sort-func: phony 5-function/selection-sort-func.exe
+
+build selection-sort-func.exe: phony 5-function/selection-sort-func.exe
+
 build selection-sort.exe: phony 3-for-a-while/selection-sort.exe
 
 build sphere: phony 1-types-io/sphere.exe
@@ -1461,6 +1892,10 @@ build sphere: phony 1-types-io/sphere.exe
 build sphere.exe: phony 1-types-io/sphere.exe
 
 build stars: phony 3-for-a-while/stars.exe
+
+build stars-func: phony 5-function/stars-func.exe
+
+build stars-func.exe: phony 5-function/stars-func.exe
 
 build stars.exe: phony 3-for-a-while/stars.exe
 
@@ -1472,7 +1907,7 @@ build stars.exe: phony 3-for-a-while/stars.exe
 #############################################
 # Folder: D:/cpl/2024-cpl-coding-0/cmake-build-debug
 
-build all: phony 0-intro/all 1-types-io/all 2-if-for-array/all 3-for-a-while/all 4-loops/all
+build all: phony 0-intro/all 1-types-io/all 2-if-for-array/all 3-for-a-while/all 4-loops/all 5-function/all
 
 # =============================================================================
 
@@ -1510,20 +1945,27 @@ build 3-for-a-while/all: phony 3-for-a-while/stars.exe 3-for-a-while/primes.exe 
 build 4-loops/all: phony 4-loops/game-of-life.exe 4-loops/game-of-life-chatgpt.exe 4-loops/insertion-sort.exe 4-loops/insertion-sort-bsearch.exe 4-loops/binary-insertion-sort.exe 4-loops/merge.exe
 
 # =============================================================================
+
+#############################################
+# Folder: D:/cpl/2024-cpl-coding-0/cmake-build-debug/5-function
+
+build 5-function/all: phony 5-function/leap-func.exe 5-function/primes-func.exe 5-function/stars-func.exe 5-function/binary-search-func.exe 5-function/palindrome-func.exe 5-function/selection-sort-func.exe 5-function/insertion-sort-func.exe 5-function/binary-insertion-sort-func.exe 5-function/merge-func.exe 5-function/game-of-life-func.exe 5-function/game-of-life-transformed.exe
+
+# =============================================================================
 # Built-in targets
 
 
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.3/CMakeCCompiler.cmake CMakeFiles/3.30.3/CMakeRCCompiler.cmake CMakeFiles/3.30.3/CMakeSystem.cmake D$:/cpl/2024-cpl-coding-0/0-intro/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/1-types-io/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/2-if-for-array/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/3-for-a-while/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/4-loops/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.3/CMakeCCompiler.cmake CMakeFiles/3.30.3/CMakeRCCompiler.cmake CMakeFiles/3.30.3/CMakeSystem.cmake D$:/cpl/2024-cpl-coding-0/0-intro/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/1-types-io/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/2-if-for-array/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/3-for-a-while/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/4-loops/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/5-function/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.3/CMakeCCompiler.cmake CMakeFiles/3.30.3/CMakeRCCompiler.cmake CMakeFiles/3.30.3/CMakeSystem.cmake D$:/cpl/2024-cpl-coding-0/0-intro/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/1-types-io/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/2-if-for-array/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/3-for-a-while/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/4-loops/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/CMakeLists.txt: phony
+build C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.3/CMakeCCompiler.cmake CMakeFiles/3.30.3/CMakeRCCompiler.cmake CMakeFiles/3.30.3/CMakeSystem.cmake D$:/cpl/2024-cpl-coding-0/0-intro/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/1-types-io/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/2-if-for-array/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/3-for-a-while/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/4-loops/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/5-function/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/CMakeLists.txt: phony
 
 
 #############################################

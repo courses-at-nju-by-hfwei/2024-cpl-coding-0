@@ -44,3 +44,16 @@ D:/cpl/2024-cpl-coding-0/cmake-build-debug/4-loops/CMakeFiles/binary-insertion-s
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/4-loops/CMakeFiles/merge.dir
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/4-loops/CMakeFiles/edit_cache.dir
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/4-loops/CMakeFiles/rebuild_cache.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/5-function/CMakeFiles/leap-func.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/5-function/CMakeFiles/primes-func.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/5-function/CMakeFiles/stars-func.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/5-function/CMakeFiles/binary-search-func.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/5-function/CMakeFiles/palindrome-func.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/5-function/CMakeFiles/selection-sort-func.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/5-function/CMakeFiles/insertion-sort-func.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/5-function/CMakeFiles/binary-insertion-sort-func.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/5-function/CMakeFiles/merge-func.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/5-function/CMakeFiles/game-of-life-func.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/5-function/CMakeFiles/game-of-life-transformed.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/5-function/CMakeFiles/edit_cache.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/5-function/CMakeFiles/rebuild_cache.dir
