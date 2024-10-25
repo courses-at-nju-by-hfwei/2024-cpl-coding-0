@@ -3,14 +3,17 @@
 #include <stdio.h>
 
 #define LEN 20
-int numbers[LEN] = { 0 };
+int numbers[LEN] = {0};
 
 void SelectionSort(int arr[], int len);
 void Print(const int arr[], int len);
+int GetMinIndex(const int arr[], int len, int begin);
+void Swap(int arr[], int left_index, int right_index);
 
 int main(void) {
   int len = -1;
-  while (scanf("%d", &numbers[++len]) != EOF);
+  while (scanf("%d", &numbers[++len]) != EOF)
+    ;
 
   Print(numbers, len);
   SelectionSort(numbers, len);
@@ -21,21 +24,12 @@ int main(void) {
 
 void SelectionSort(int arr[], int len) {
   for (int i = 0; i < len; i++) {
-    // find the minimum value of numbers[i .. n-1]
-    int min = arr[i];
-    int min_index = i;
-
-    for (int j = i + 1; j <= len - 1; ++j) {
-      if (arr[j] < min) {
-        min = arr[j];
-        min_index = j;
-      }
-    }
+    int min_index = GetMinIndex(arr, len, i);
 
     // swap arr[i] and arr[min_index]
-    int temp = arr[i];
-    arr[i] = arr[min_index];
-    arr[min_index] = temp;
+    // arr[i] = 35; arr[min_index] = 86;
+    // left = 35; right = 86;
+    Swap(arr, i, min_index);
   }
 }
 
@@ -45,4 +39,25 @@ void Print(const int arr[], int len) {
     printf("%d ", arr[i]);
   }
   printf("\n");
+}
+
+// find the minimum value of numbers[i .. len - 1]
+int GetMinIndex(const int arr[], int len, int begin) {
+  int min = arr[begin];
+  int min_index = begin;
+
+  for (int j = begin + 1; j <= len - 1; ++j) {
+    if (arr[j] < min) {
+      min = arr[j];
+      min_index = j;
+    }
+  }
+
+  return min_index;
+}
+
+void Swap(int arr[], int left_index, int right_index) {
+  int temp = arr[left_index];
+  arr[left_index] = arr[right_index];
+  arr[right_index] = temp;
 }

@@ -1,11 +1,13 @@
 // Created by hfwei on 2024/10/10.
 
+#include <stdbool.h>
 #include <stdio.h>
 #include <string.h>
-#include <stdbool.h>
 
 #define LEN 21
 char string[LEN] = "";
+
+bool IsPalindrome(const char str[], int len);
 
 int main() {
   // example: nolemon,nomelon
@@ -25,8 +27,7 @@ int main() {
     }
   }
 
-  printf("\"%s\" is %s a palindrome.\n", string,
-         is_palindrome ? "" : "not");
+  printf("\"%s\" is %s a palindrome.\n", string, is_palindrome ? "" : "not");
 
   return 0;
 }
