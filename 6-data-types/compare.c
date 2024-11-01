@@ -17,6 +17,8 @@ bool IsEqual(double x, double y);
 int main() {
   printf("%d\n", IsEqual(DBL_MAX, DBL_MAX - 100));
 
+  printf("%.50e\n", (DBL_MAX - 100));
+
   printf("%.50f\n", DBL_MAX - (DBL_MAX - 100));
 
   return 0;

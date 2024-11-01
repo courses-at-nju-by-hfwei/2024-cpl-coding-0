@@ -51,28 +51,51 @@ int main(void) {
 }
 
 int Add(int left, int right) {
-  return left + right;
+  if ((left > 0 && right > INT_MAX - left) ||
+      (left < 0 && right < INT_MIN - left)) {
+    printf("Overflow!\n");
+    exit(1);
+  } else {
+    return left + right;
+  }
 }
 
-int Sub(int left, int right) {
-  return left - right;
-}
+int Sub(int left, int right) { return left - right; }
 
 int Mul(int left, int right) {
+  if (left > 0) {
+    if (right > 0) {  // left > 0 && right > 0
+      if (left > INT_MAX / right) {
+        printf("Overflow!\n");
+        exit(1);
+      }
+    } else {  // left > 0 && right < 0
+      if (right < INT_MIN / left) {
+        printf("Overflow!\n");
+        exit(1);
+      }
+    }
+  } else {            // left <= 0
+    if (right > 0) {  // left <= 0 && right > 0
+      if (left < INT_MIN / right) {
+        printf("Overflow!\n");
+        exit(1);
+      }
+    } else {  // left <= 0 && right <= 0
+      if (left != 0 && right < INT_MAX / left) {
+        printf("Overflow!\n");
+        exit(1);
+      }
+    }
+  }
   return left * right;
 }
 
-int Div(int left, int right) {
-  return left / right;
-}
+int Div(int left, int right) { return left / right; }
 
-int Mod(int left, int right) {
-  return left % right;
-}
+int Mod(int left, int right) { return left % right; }
 
-int Neg(int left) {
-  return -left;
-}
+int Neg(int left) { return -left; }
 
 // Add:
 //  if ((left > 0 && right > INT_MAX - left) ||
@@ -84,13 +107,13 @@ int Neg(int left) {
 //  }
 
 // Sub
-//if ((left > 0 && right < INT_MIN + left) ||
+// if ((left > 0 && right < INT_MIN + left) ||
 //(left < 0 && right > INT_MAX + left)) {
-//printf("Overflow!\n");
-//exit(1);
+// printf("Overflow!\n");
+// exit(1);
 //} else {
-//int sub = left - right;
-//return sub;
+// int sub = left - right;
+// return sub;
 //}
 
 // Mul
@@ -140,9 +163,9 @@ int Neg(int left) {
 //  return left % right;
 
 // Neg
-//if (left == INT_MIN) {
-//printf("Overflow!\n");
-//exit(1);
+// if (left == INT_MIN) {
+// printf("Overflow!\n");
+// exit(1);
 //}
 //
-//return -left;
+// return -left;
