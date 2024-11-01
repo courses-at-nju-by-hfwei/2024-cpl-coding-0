@@ -1717,6 +1717,628 @@ build 5-function/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build 5-function/rebuild_cache: phony 5-function/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/cpl/2024-cpl-coding-0/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target size
+
+
+#############################################
+# Order-only phony target for size
+
+build cmake_object_order_depends_target_size: phony || .
+
+build 6-data-types/CMakeFiles/size.dir/size.c.obj: C_COMPILER__size_unscanned_Debug D$:/cpl/2024-cpl-coding-0/6-data-types/size.c || cmake_object_order_depends_target_size
+  DEP_FILE = 6-data-types\CMakeFiles\size.dir\size.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 6-data-types\CMakeFiles\size.dir
+  OBJECT_FILE_DIR = 6-data-types\CMakeFiles\size.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target size
+
+
+#############################################
+# Link the executable 6-data-types\size.exe
+
+build 6-data-types/size.exe: C_EXECUTABLE_LINKER__size_Debug 6-data-types/CMakeFiles/size.dir/size.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 6-data-types\CMakeFiles\size.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 6-data-types\size.exe
+  TARGET_IMPLIB = 6-data-types\libsize.dll.a
+  TARGET_PDB = size.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target int-limits
+
+
+#############################################
+# Order-only phony target for int-limits
+
+build cmake_object_order_depends_target_int-limits: phony || .
+
+build 6-data-types/CMakeFiles/int-limits.dir/int-limits.c.obj: C_COMPILER__int-limits_unscanned_Debug D$:/cpl/2024-cpl-coding-0/6-data-types/int-limits.c || cmake_object_order_depends_target_int-limits
+  DEP_FILE = 6-data-types\CMakeFiles\int-limits.dir\int-limits.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 6-data-types\CMakeFiles\int-limits.dir
+  OBJECT_FILE_DIR = 6-data-types\CMakeFiles\int-limits.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target int-limits
+
+
+#############################################
+# Link the executable 6-data-types\int-limits.exe
+
+build 6-data-types/int-limits.exe: C_EXECUTABLE_LINKER__int-limits_Debug 6-data-types/CMakeFiles/int-limits.dir/int-limits.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 6-data-types\CMakeFiles\int-limits.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 6-data-types\int-limits.exe
+  TARGET_IMPLIB = 6-data-types\libint-limits.dll.a
+  TARGET_PDB = int-limits.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exact-width
+
+
+#############################################
+# Order-only phony target for exact-width
+
+build cmake_object_order_depends_target_exact-width: phony || .
+
+build 6-data-types/CMakeFiles/exact-width.dir/exact-width.c.obj: C_COMPILER__exact-width_unscanned_Debug D$:/cpl/2024-cpl-coding-0/6-data-types/exact-width.c || cmake_object_order_depends_target_exact-width
+  DEP_FILE = 6-data-types\CMakeFiles\exact-width.dir\exact-width.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 6-data-types\CMakeFiles\exact-width.dir
+  OBJECT_FILE_DIR = 6-data-types\CMakeFiles\exact-width.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exact-width
+
+
+#############################################
+# Link the executable 6-data-types\exact-width.exe
+
+build 6-data-types/exact-width.exe: C_EXECUTABLE_LINKER__exact-width_Debug 6-data-types/CMakeFiles/exact-width.dir/exact-width.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 6-data-types\CMakeFiles\exact-width.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 6-data-types\exact-width.exe
+  TARGET_IMPLIB = 6-data-types\libexact-width.dll.a
+  TARGET_PDB = exact-width.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target unsigned
+
+
+#############################################
+# Order-only phony target for unsigned
+
+build cmake_object_order_depends_target_unsigned: phony || .
+
+build 6-data-types/CMakeFiles/unsigned.dir/unsigned.c.obj: C_COMPILER__unsigned_unscanned_Debug D$:/cpl/2024-cpl-coding-0/6-data-types/unsigned.c || cmake_object_order_depends_target_unsigned
+  DEP_FILE = 6-data-types\CMakeFiles\unsigned.dir\unsigned.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 6-data-types\CMakeFiles\unsigned.dir
+  OBJECT_FILE_DIR = 6-data-types\CMakeFiles\unsigned.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target unsigned
+
+
+#############################################
+# Link the executable 6-data-types\unsigned.exe
+
+build 6-data-types/unsigned.exe: C_EXECUTABLE_LINKER__unsigned_Debug 6-data-types/CMakeFiles/unsigned.dir/unsigned.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 6-data-types\CMakeFiles\unsigned.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 6-data-types\unsigned.exe
+  TARGET_IMPLIB = 6-data-types\libunsigned.dll.a
+  TARGET_PDB = unsigned.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target timing-primes
+
+
+#############################################
+# Order-only phony target for timing-primes
+
+build cmake_object_order_depends_target_timing-primes: phony || .
+
+build 6-data-types/CMakeFiles/timing-primes.dir/timing-primes.c.obj: C_COMPILER__timing-primes_unscanned_Debug D$:/cpl/2024-cpl-coding-0/6-data-types/timing-primes.c || cmake_object_order_depends_target_timing-primes
+  DEP_FILE = 6-data-types\CMakeFiles\timing-primes.dir\timing-primes.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 6-data-types\CMakeFiles\timing-primes.dir
+  OBJECT_FILE_DIR = 6-data-types\CMakeFiles\timing-primes.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target timing-primes
+
+
+#############################################
+# Link the executable 6-data-types\timing-primes.exe
+
+build 6-data-types/timing-primes.exe: C_EXECUTABLE_LINKER__timing-primes_Debug 6-data-types/CMakeFiles/timing-primes.dir/timing-primes.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 6-data-types\CMakeFiles\timing-primes.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 6-data-types\timing-primes.exe
+  TARGET_IMPLIB = 6-data-types\libtiming-primes.dll.a
+  TARGET_PDB = timing-primes.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target char
+
+
+#############################################
+# Order-only phony target for char
+
+build cmake_object_order_depends_target_char: phony || .
+
+build 6-data-types/CMakeFiles/char.dir/char.c.obj: C_COMPILER__char_unscanned_Debug D$:/cpl/2024-cpl-coding-0/6-data-types/char.c || cmake_object_order_depends_target_char
+  DEP_FILE = 6-data-types\CMakeFiles\char.dir\char.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 6-data-types\CMakeFiles\char.dir
+  OBJECT_FILE_DIR = 6-data-types\CMakeFiles\char.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target char
+
+
+#############################################
+# Link the executable 6-data-types\char.exe
+
+build 6-data-types/char.exe: C_EXECUTABLE_LINKER__char_Debug 6-data-types/CMakeFiles/char.dir/char.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 6-data-types\CMakeFiles\char.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 6-data-types\char.exe
+  TARGET_IMPLIB = 6-data-types\libchar.dll.a
+  TARGET_PDB = char.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target unsinged-wrap
+
+
+#############################################
+# Order-only phony target for unsinged-wrap
+
+build cmake_object_order_depends_target_unsinged-wrap: phony || .
+
+build 6-data-types/CMakeFiles/unsinged-wrap.dir/unsigned-wrap.c.obj: C_COMPILER__unsinged-wrap_unscanned_Debug D$:/cpl/2024-cpl-coding-0/6-data-types/unsigned-wrap.c || cmake_object_order_depends_target_unsinged-wrap
+  DEP_FILE = 6-data-types\CMakeFiles\unsinged-wrap.dir\unsigned-wrap.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 6-data-types\CMakeFiles\unsinged-wrap.dir
+  OBJECT_FILE_DIR = 6-data-types\CMakeFiles\unsinged-wrap.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target unsinged-wrap
+
+
+#############################################
+# Link the executable 6-data-types\unsinged-wrap.exe
+
+build 6-data-types/unsinged-wrap.exe: C_EXECUTABLE_LINKER__unsinged-wrap_Debug 6-data-types/CMakeFiles/unsinged-wrap.dir/unsigned-wrap.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 6-data-types\CMakeFiles\unsinged-wrap.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 6-data-types\unsinged-wrap.exe
+  TARGET_IMPLIB = 6-data-types\libunsinged-wrap.dll.a
+  TARGET_PDB = unsinged-wrap.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target for-unsigned
+
+
+#############################################
+# Order-only phony target for for-unsigned
+
+build cmake_object_order_depends_target_for-unsigned: phony || .
+
+build 6-data-types/CMakeFiles/for-unsigned.dir/for-unsigned.c.obj: C_COMPILER__for-unsigned_unscanned_Debug D$:/cpl/2024-cpl-coding-0/6-data-types/for-unsigned.c || cmake_object_order_depends_target_for-unsigned
+  DEP_FILE = 6-data-types\CMakeFiles\for-unsigned.dir\for-unsigned.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 6-data-types\CMakeFiles\for-unsigned.dir
+  OBJECT_FILE_DIR = 6-data-types\CMakeFiles\for-unsigned.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target for-unsigned
+
+
+#############################################
+# Link the executable 6-data-types\for-unsigned.exe
+
+build 6-data-types/for-unsigned.exe: C_EXECUTABLE_LINKER__for-unsigned_Debug 6-data-types/CMakeFiles/for-unsigned.dir/for-unsigned.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 6-data-types\CMakeFiles\for-unsigned.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 6-data-types\for-unsigned.exe
+  TARGET_IMPLIB = 6-data-types\libfor-unsigned.dll.a
+  TARGET_PDB = for-unsigned.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target unsigned-wrap-fix
+
+
+#############################################
+# Order-only phony target for unsigned-wrap-fix
+
+build cmake_object_order_depends_target_unsigned-wrap-fix: phony || .
+
+build 6-data-types/CMakeFiles/unsigned-wrap-fix.dir/unsigned-wrap-fix.c.obj: C_COMPILER__unsigned-wrap-fix_unscanned_Debug D$:/cpl/2024-cpl-coding-0/6-data-types/unsigned-wrap-fix.c || cmake_object_order_depends_target_unsigned-wrap-fix
+  DEP_FILE = 6-data-types\CMakeFiles\unsigned-wrap-fix.dir\unsigned-wrap-fix.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 6-data-types\CMakeFiles\unsigned-wrap-fix.dir
+  OBJECT_FILE_DIR = 6-data-types\CMakeFiles\unsigned-wrap-fix.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target unsigned-wrap-fix
+
+
+#############################################
+# Link the executable 6-data-types\unsigned-wrap-fix.exe
+
+build 6-data-types/unsigned-wrap-fix.exe: C_EXECUTABLE_LINKER__unsigned-wrap-fix_Debug 6-data-types/CMakeFiles/unsigned-wrap-fix.dir/unsigned-wrap-fix.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 6-data-types\CMakeFiles\unsigned-wrap-fix.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 6-data-types\unsigned-wrap-fix.exe
+  TARGET_IMPLIB = 6-data-types\libunsigned-wrap-fix.dll.a
+  TARGET_PDB = unsigned-wrap-fix.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target signed-overflow-fix
+
+
+#############################################
+# Order-only phony target for signed-overflow-fix
+
+build cmake_object_order_depends_target_signed-overflow-fix: phony || .
+
+build 6-data-types/CMakeFiles/signed-overflow-fix.dir/signed-overflow-fix.c.obj: C_COMPILER__signed-overflow-fix_unscanned_Debug D$:/cpl/2024-cpl-coding-0/6-data-types/signed-overflow-fix.c || cmake_object_order_depends_target_signed-overflow-fix
+  DEP_FILE = 6-data-types\CMakeFiles\signed-overflow-fix.dir\signed-overflow-fix.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 6-data-types\CMakeFiles\signed-overflow-fix.dir
+  OBJECT_FILE_DIR = 6-data-types\CMakeFiles\signed-overflow-fix.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target signed-overflow-fix
+
+
+#############################################
+# Link the executable 6-data-types\signed-overflow-fix.exe
+
+build 6-data-types/signed-overflow-fix.exe: C_EXECUTABLE_LINKER__signed-overflow-fix_Debug 6-data-types/CMakeFiles/signed-overflow-fix.dir/signed-overflow-fix.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 6-data-types\CMakeFiles\signed-overflow-fix.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 6-data-types\signed-overflow-fix.exe
+  TARGET_IMPLIB = 6-data-types\libsigned-overflow-fix.dll.a
+  TARGET_PDB = signed-overflow-fix.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target implicit-conversion
+
+
+#############################################
+# Order-only phony target for implicit-conversion
+
+build cmake_object_order_depends_target_implicit-conversion: phony || .
+
+build 6-data-types/CMakeFiles/implicit-conversion.dir/implicit-conversion.c.obj: C_COMPILER__implicit-conversion_unscanned_Debug D$:/cpl/2024-cpl-coding-0/6-data-types/implicit-conversion.c || cmake_object_order_depends_target_implicit-conversion
+  DEP_FILE = 6-data-types\CMakeFiles\implicit-conversion.dir\implicit-conversion.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 6-data-types\CMakeFiles\implicit-conversion.dir
+  OBJECT_FILE_DIR = 6-data-types\CMakeFiles\implicit-conversion.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target implicit-conversion
+
+
+#############################################
+# Link the executable 6-data-types\implicit-conversion.exe
+
+build 6-data-types/implicit-conversion.exe: C_EXECUTABLE_LINKER__implicit-conversion_Debug 6-data-types/CMakeFiles/implicit-conversion.dir/implicit-conversion.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 6-data-types\CMakeFiles\implicit-conversion.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 6-data-types\implicit-conversion.exe
+  TARGET_IMPLIB = 6-data-types\libimplicit-conversion.dll.a
+  TARGET_PDB = implicit-conversion.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target integer-promotion
+
+
+#############################################
+# Order-only phony target for integer-promotion
+
+build cmake_object_order_depends_target_integer-promotion: phony || .
+
+build 6-data-types/CMakeFiles/integer-promotion.dir/integer-promotion.c.obj: C_COMPILER__integer-promotion_unscanned_Debug D$:/cpl/2024-cpl-coding-0/6-data-types/integer-promotion.c || cmake_object_order_depends_target_integer-promotion
+  DEP_FILE = 6-data-types\CMakeFiles\integer-promotion.dir\integer-promotion.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 6-data-types\CMakeFiles\integer-promotion.dir
+  OBJECT_FILE_DIR = 6-data-types\CMakeFiles\integer-promotion.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target integer-promotion
+
+
+#############################################
+# Link the executable 6-data-types\integer-promotion.exe
+
+build 6-data-types/integer-promotion.exe: C_EXECUTABLE_LINKER__integer-promotion_Debug 6-data-types/CMakeFiles/integer-promotion.dir/integer-promotion.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 6-data-types\CMakeFiles\integer-promotion.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 6-data-types\integer-promotion.exe
+  TARGET_IMPLIB = 6-data-types\libinteger-promotion.dll.a
+  TARGET_PDB = integer-promotion.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target explict-conversion
+
+
+#############################################
+# Order-only phony target for explict-conversion
+
+build cmake_object_order_depends_target_explict-conversion: phony || .
+
+build 6-data-types/CMakeFiles/explict-conversion.dir/explict-conversion.c.obj: C_COMPILER__explict-conversion_unscanned_Debug D$:/cpl/2024-cpl-coding-0/6-data-types/explict-conversion.c || cmake_object_order_depends_target_explict-conversion
+  DEP_FILE = 6-data-types\CMakeFiles\explict-conversion.dir\explict-conversion.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 6-data-types\CMakeFiles\explict-conversion.dir
+  OBJECT_FILE_DIR = 6-data-types\CMakeFiles\explict-conversion.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target explict-conversion
+
+
+#############################################
+# Link the executable 6-data-types\explict-conversion.exe
+
+build 6-data-types/explict-conversion.exe: C_EXECUTABLE_LINKER__explict-conversion_Debug 6-data-types/CMakeFiles/explict-conversion.dir/explict-conversion.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 6-data-types\CMakeFiles\explict-conversion.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 6-data-types\explict-conversion.exe
+  TARGET_IMPLIB = 6-data-types\libexplict-conversion.dll.a
+  TARGET_PDB = explict-conversion.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target float-limits
+
+
+#############################################
+# Order-only phony target for float-limits
+
+build cmake_object_order_depends_target_float-limits: phony || .
+
+build 6-data-types/CMakeFiles/float-limits.dir/float-limits.c.obj: C_COMPILER__float-limits_unscanned_Debug D$:/cpl/2024-cpl-coding-0/6-data-types/float-limits.c || cmake_object_order_depends_target_float-limits
+  DEP_FILE = 6-data-types\CMakeFiles\float-limits.dir\float-limits.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 6-data-types\CMakeFiles\float-limits.dir
+  OBJECT_FILE_DIR = 6-data-types\CMakeFiles\float-limits.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target float-limits
+
+
+#############################################
+# Link the executable 6-data-types\float-limits.exe
+
+build 6-data-types/float-limits.exe: C_EXECUTABLE_LINKER__float-limits_Debug 6-data-types/CMakeFiles/float-limits.dir/float-limits.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 6-data-types\CMakeFiles\float-limits.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 6-data-types\float-limits.exe
+  TARGET_IMPLIB = 6-data-types\libfloat-limits.dll.a
+  TARGET_PDB = float-limits.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sum-product
+
+
+#############################################
+# Order-only phony target for sum-product
+
+build cmake_object_order_depends_target_sum-product: phony || .
+
+build 6-data-types/CMakeFiles/sum-product.dir/sum-product.c.obj: C_COMPILER__sum-product_unscanned_Debug D$:/cpl/2024-cpl-coding-0/6-data-types/sum-product.c || cmake_object_order_depends_target_sum-product
+  DEP_FILE = 6-data-types\CMakeFiles\sum-product.dir\sum-product.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 6-data-types\CMakeFiles\sum-product.dir
+  OBJECT_FILE_DIR = 6-data-types\CMakeFiles\sum-product.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sum-product
+
+
+#############################################
+# Link the executable 6-data-types\sum-product.exe
+
+build 6-data-types/sum-product.exe: C_EXECUTABLE_LINKER__sum-product_Debug 6-data-types/CMakeFiles/sum-product.dir/sum-product.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 6-data-types\CMakeFiles\sum-product.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 6-data-types\sum-product.exe
+  TARGET_IMPLIB = 6-data-types\libsum-product.dll.a
+  TARGET_PDB = sum-product.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target loop
+
+
+#############################################
+# Order-only phony target for loop
+
+build cmake_object_order_depends_target_loop: phony || .
+
+build 6-data-types/CMakeFiles/loop.dir/loop.c.obj: C_COMPILER__loop_unscanned_Debug D$:/cpl/2024-cpl-coding-0/6-data-types/loop.c || cmake_object_order_depends_target_loop
+  DEP_FILE = 6-data-types\CMakeFiles\loop.dir\loop.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 6-data-types\CMakeFiles\loop.dir
+  OBJECT_FILE_DIR = 6-data-types\CMakeFiles\loop.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target loop
+
+
+#############################################
+# Link the executable 6-data-types\loop.exe
+
+build 6-data-types/loop.exe: C_EXECUTABLE_LINKER__loop_Debug 6-data-types/CMakeFiles/loop.dir/loop.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 6-data-types\CMakeFiles\loop.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 6-data-types\loop.exe
+  TARGET_IMPLIB = 6-data-types\libloop.dll.a
+  TARGET_PDB = loop.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target compare
+
+
+#############################################
+# Order-only phony target for compare
+
+build cmake_object_order_depends_target_compare: phony || .
+
+build 6-data-types/CMakeFiles/compare.dir/compare.c.obj: C_COMPILER__compare_unscanned_Debug D$:/cpl/2024-cpl-coding-0/6-data-types/compare.c || cmake_object_order_depends_target_compare
+  DEP_FILE = 6-data-types\CMakeFiles\compare.dir\compare.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 6-data-types\CMakeFiles\compare.dir
+  OBJECT_FILE_DIR = 6-data-types\CMakeFiles\compare.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target compare
+
+
+#############################################
+# Link the executable 6-data-types\compare.exe
+
+build 6-data-types/compare.exe: C_EXECUTABLE_LINKER__compare_Debug 6-data-types/CMakeFiles/compare.dir/compare.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lm  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 6-data-types\CMakeFiles\compare.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 6-data-types\compare.exe
+  TARGET_IMPLIB = 6-data-types\libcompare.dll.a
+  TARGET_PDB = compare.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target float-assoc
+
+
+#############################################
+# Order-only phony target for float-assoc
+
+build cmake_object_order_depends_target_float-assoc: phony || .
+
+build 6-data-types/CMakeFiles/float-assoc.dir/float-assoc.c.obj: C_COMPILER__float-assoc_unscanned_Debug D$:/cpl/2024-cpl-coding-0/6-data-types/float-assoc.c || cmake_object_order_depends_target_float-assoc
+  DEP_FILE = 6-data-types\CMakeFiles\float-assoc.dir\float-assoc.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 6-data-types\CMakeFiles\float-assoc.dir
+  OBJECT_FILE_DIR = 6-data-types\CMakeFiles\float-assoc.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target float-assoc
+
+
+#############################################
+# Link the executable 6-data-types\float-assoc.exe
+
+build 6-data-types/float-assoc.exe: C_EXECUTABLE_LINKER__float-assoc_Debug 6-data-types/CMakeFiles/float-assoc.dir/float-assoc.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 6-data-types\CMakeFiles\float-assoc.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 6-data-types\float-assoc.exe
+  TARGET_IMPLIB = 6-data-types\libfloat-assoc.dll.a
+  TARGET_PDB = float-assoc.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 6-data-types/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\cpl\2024-cpl-coding-0\cmake-build-debug\6-data-types && "C:\Users\hfwei\AppData\Local\Programs\CLion 2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 6-data-types/edit_cache: phony 6-data-types/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 6-data-types/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\cpl\2024-cpl-coding-0\cmake-build-debug\6-data-types && "C:\Users\hfwei\AppData\Local\Programs\CLion 2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\cpl\2024-cpl-coding-0 -BD:\cpl\2024-cpl-coding-0\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 6-data-types/rebuild_cache: phony 6-data-types/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build admin: phony 1-types-io/admin.exe
@@ -1747,9 +2369,17 @@ build binary-search-func.exe: phony 5-function/binary-search-func.exe
 
 build binary-search.exe: phony 3-for-a-while/binary-search.exe
 
+build char: phony 6-data-types/char.exe
+
+build char.exe: phony 6-data-types/char.exe
+
 build circle: phony 1-types-io/circle.exe
 
 build circle.exe: phony 1-types-io/circle.exe
+
+build compare: phony 6-data-types/compare.exe
+
+build compare.exe: phony 6-data-types/compare.exe
 
 build digits-do-while: phony 3-for-a-while/digits-do-while.exe
 
@@ -1762,6 +2392,26 @@ build digits-for.exe: phony 3-for-a-while/digits-for.exe
 build digits-while: phony 3-for-a-while/digits-while.exe
 
 build digits-while.exe: phony 3-for-a-while/digits-while.exe
+
+build exact-width: phony 6-data-types/exact-width.exe
+
+build exact-width.exe: phony 6-data-types/exact-width.exe
+
+build explict-conversion: phony 6-data-types/explict-conversion.exe
+
+build explict-conversion.exe: phony 6-data-types/explict-conversion.exe
+
+build float-assoc: phony 6-data-types/float-assoc.exe
+
+build float-assoc.exe: phony 6-data-types/float-assoc.exe
+
+build float-limits: phony 6-data-types/float-limits.exe
+
+build float-limits.exe: phony 6-data-types/float-limits.exe
+
+build for-unsigned: phony 6-data-types/for-unsigned.exe
+
+build for-unsigned.exe: phony 6-data-types/for-unsigned.exe
 
 build game-of-life: phony 4-loops/game-of-life.exe
 
@@ -1787,6 +2437,10 @@ build hello: phony 0-intro/hello.exe
 
 build hello.exe: phony 0-intro/hello.exe
 
+build implicit-conversion: phony 6-data-types/implicit-conversion.exe
+
+build implicit-conversion.exe: phony 6-data-types/implicit-conversion.exe
+
 build insertion-sort: phony 4-loops/insertion-sort.exe
 
 build insertion-sort-bsearch: phony 4-loops/insertion-sort-bsearch.exe
@@ -1798,6 +2452,14 @@ build insertion-sort-func: phony 5-function/insertion-sort-func.exe
 build insertion-sort-func.exe: phony 5-function/insertion-sort-func.exe
 
 build insertion-sort.exe: phony 4-loops/insertion-sort.exe
+
+build int-limits: phony 6-data-types/int-limits.exe
+
+build int-limits.exe: phony 6-data-types/int-limits.exe
+
+build integer-promotion: phony 6-data-types/integer-promotion.exe
+
+build integer-promotion.exe: phony 6-data-types/integer-promotion.exe
 
 build leap: phony 2-if-for-array/leap.exe
 
@@ -1818,6 +2480,10 @@ build leap-if-else: phony 2-if-for-array/leap-if-else.exe
 build leap-if-else.exe: phony 2-if-for-array/leap-if-else.exe
 
 build leap.exe: phony 2-if-for-array/leap.exe
+
+build loop: phony 6-data-types/loop.exe
+
+build loop.exe: phony 6-data-types/loop.exe
 
 build merge: phony 4-loops/merge.exe
 
@@ -1887,6 +2553,14 @@ build selection-sort-func.exe: phony 5-function/selection-sort-func.exe
 
 build selection-sort.exe: phony 3-for-a-while/selection-sort.exe
 
+build signed-overflow-fix: phony 6-data-types/signed-overflow-fix.exe
+
+build signed-overflow-fix.exe: phony 6-data-types/signed-overflow-fix.exe
+
+build size: phony 6-data-types/size.exe
+
+build size.exe: phony 6-data-types/size.exe
+
 build sphere: phony 1-types-io/sphere.exe
 
 build sphere.exe: phony 1-types-io/sphere.exe
@@ -1899,6 +2573,26 @@ build stars-func.exe: phony 5-function/stars-func.exe
 
 build stars.exe: phony 3-for-a-while/stars.exe
 
+build sum-product: phony 6-data-types/sum-product.exe
+
+build sum-product.exe: phony 6-data-types/sum-product.exe
+
+build timing-primes: phony 6-data-types/timing-primes.exe
+
+build timing-primes.exe: phony 6-data-types/timing-primes.exe
+
+build unsigned: phony 6-data-types/unsigned.exe
+
+build unsigned-wrap-fix: phony 6-data-types/unsigned-wrap-fix.exe
+
+build unsigned-wrap-fix.exe: phony 6-data-types/unsigned-wrap-fix.exe
+
+build unsigned.exe: phony 6-data-types/unsigned.exe
+
+build unsinged-wrap: phony 6-data-types/unsinged-wrap.exe
+
+build unsinged-wrap.exe: phony 6-data-types/unsinged-wrap.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -1907,7 +2601,7 @@ build stars.exe: phony 3-for-a-while/stars.exe
 #############################################
 # Folder: D:/cpl/2024-cpl-coding-0/cmake-build-debug
 
-build all: phony 0-intro/all 1-types-io/all 2-if-for-array/all 3-for-a-while/all 4-loops/all 5-function/all
+build all: phony 0-intro/all 1-types-io/all 2-if-for-array/all 3-for-a-while/all 4-loops/all 5-function/all 6-data-types/all
 
 # =============================================================================
 
@@ -1952,20 +2646,27 @@ build 4-loops/all: phony 4-loops/game-of-life.exe 4-loops/game-of-life-chatgpt.e
 build 5-function/all: phony 5-function/leap-func.exe 5-function/primes-func.exe 5-function/stars-func.exe 5-function/binary-search-func.exe 5-function/palindrome-func.exe 5-function/selection-sort-func.exe 5-function/insertion-sort-func.exe 5-function/binary-insertion-sort-func.exe 5-function/merge-func.exe 5-function/game-of-life-func.exe 5-function/game-of-life-transformed.exe
 
 # =============================================================================
+
+#############################################
+# Folder: D:/cpl/2024-cpl-coding-0/cmake-build-debug/6-data-types
+
+build 6-data-types/all: phony 6-data-types/size.exe 6-data-types/int-limits.exe 6-data-types/exact-width.exe 6-data-types/unsigned.exe 6-data-types/timing-primes.exe 6-data-types/char.exe 6-data-types/unsinged-wrap.exe 6-data-types/for-unsigned.exe 6-data-types/unsigned-wrap-fix.exe 6-data-types/signed-overflow-fix.exe 6-data-types/implicit-conversion.exe 6-data-types/integer-promotion.exe 6-data-types/explict-conversion.exe 6-data-types/float-limits.exe 6-data-types/sum-product.exe 6-data-types/loop.exe 6-data-types/compare.exe 6-data-types/float-assoc.exe
+
+# =============================================================================
 # Built-in targets
 
 
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.3/CMakeCCompiler.cmake CMakeFiles/3.30.3/CMakeRCCompiler.cmake CMakeFiles/3.30.3/CMakeSystem.cmake D$:/cpl/2024-cpl-coding-0/0-intro/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/1-types-io/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/2-if-for-array/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/3-for-a-while/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/4-loops/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/5-function/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.3/CMakeCCompiler.cmake CMakeFiles/3.30.3/CMakeRCCompiler.cmake CMakeFiles/3.30.3/CMakeSystem.cmake D$:/cpl/2024-cpl-coding-0/0-intro/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/1-types-io/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/2-if-for-array/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/3-for-a-while/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/4-loops/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/5-function/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/6-data-types/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.3/CMakeCCompiler.cmake CMakeFiles/3.30.3/CMakeRCCompiler.cmake CMakeFiles/3.30.3/CMakeSystem.cmake D$:/cpl/2024-cpl-coding-0/0-intro/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/1-types-io/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/2-if-for-array/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/3-for-a-while/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/4-loops/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/5-function/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/CMakeLists.txt: phony
+build C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.3/CMakeCCompiler.cmake CMakeFiles/3.30.3/CMakeRCCompiler.cmake CMakeFiles/3.30.3/CMakeSystem.cmake D$:/cpl/2024-cpl-coding-0/0-intro/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/1-types-io/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/2-if-for-array/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/3-for-a-while/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/4-loops/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/5-function/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/6-data-types/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/CMakeLists.txt: phony
 
 
 #############################################
