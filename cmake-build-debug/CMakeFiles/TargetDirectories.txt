@@ -77,3 +77,9 @@ D:/cpl/2024-cpl-coding-0/cmake-build-debug/6-data-types/CMakeFiles/compare.dir
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/6-data-types/CMakeFiles/float-assoc.dir
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/6-data-types/CMakeFiles/edit_cache.dir
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/6-data-types/CMakeFiles/rebuild_cache.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/7-pointers-arrays/CMakeFiles/pointer.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/7-pointers-arrays/CMakeFiles/selection-sort-pointers.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/7-pointers-arrays/CMakeFiles/pointer-array.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/7-pointers-arrays/CMakeFiles/pointer-const.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/7-pointers-arrays/CMakeFiles/edit_cache.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/7-pointers-arrays/CMakeFiles/rebuild_cache.dir
