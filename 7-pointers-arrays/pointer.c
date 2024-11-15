@@ -13,22 +13,47 @@ int main(void) {
   /********** On radius_1 as lvalue and rvalue **********/
   int radius_1 = 100;
 
-  printf("radius_1 = %d\n", radius_1);
+  //  printf("radius_1 = %d\n", radius_1);
+  //  // &: address-of operator
+  //  printf("&radius_1 = %p\n", &radius_1);
 
-  double circumference = 2 * PI * radius_1;
-  printf("circumference = %f\n", circumference);
+  radius_1 = 100;
+
+  // lvalue conversion => rvalue
+  //  double circumference = 2 * PI * radius_1;
+  //  printf("circumference = %f\n", circumference);
   /********** On radius_1 as lvalue and rvalue **********/
 
   /********** On ptr_radius_1 **********/
+  int *ptr_radius_1 = &radius_1;
   /********** On ptr_radius_1 **********/
 
   /********** On ptr_radius_1 as lvalue and rvalue **********/
+  int radius_2 = 200;
+  int *ptr_radius_2 = &radius_2;
+
+  ptr_radius_1 = ptr_radius_2;
   /********** On ptr_radius_1 as lvalue and rvalue **********/
 
   /********** On *ptr_radius_1 **********/
+  // radius_1 = 1000;
+  *ptr_radius_1 = 1000;
+  // radius_1 = radius_2;
+  *ptr_radius_1 = *ptr_radius_2;
   /********** On *ptr_radius_1 **********/
 
   /********** On types of pointers **********/
+  int i = -1;
+  int *ptr_i_int = &i;
+  unsigned int *ptr_i = &i;
+
+  unsigned int hex = 0x61626364;
+  char *ptr_hex = &hex;
+  printf("%c\n", *(ptr_hex + 1));
+
+  printf("%d\n", *ptr_i_int);
+  printf("%u\n", *ptr_i);
+
   /********** On types of pointers **********/
 
   /********** On types of pointers (more) **********/
