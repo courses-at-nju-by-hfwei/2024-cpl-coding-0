@@ -2344,6 +2344,39 @@ build 6-data-types/rebuild_cache: phony 6-data-types/CMakeFiles/rebuild_cache.ut
 # =============================================================================
 
 # =============================================================================
+# Object build statements for EXECUTABLE target memory
+
+
+#############################################
+# Order-only phony target for memory
+
+build cmake_object_order_depends_target_memory: phony || .
+
+build 7-pointers-arrays/CMakeFiles/memory.dir/memory.c.obj: C_COMPILER__memory_unscanned_Debug D$:/cpl/2024-cpl-coding-0/7-pointers-arrays/memory.c || cmake_object_order_depends_target_memory
+  DEP_FILE = 7-pointers-arrays\CMakeFiles\memory.dir\memory.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 7-pointers-arrays\CMakeFiles\memory.dir
+  OBJECT_FILE_DIR = 7-pointers-arrays\CMakeFiles\memory.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target memory
+
+
+#############################################
+# Link the executable 7-pointers-arrays\memory.exe
+
+build 7-pointers-arrays/memory.exe: C_EXECUTABLE_LINKER__memory_Debug 7-pointers-arrays/CMakeFiles/memory.dir/memory.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 7-pointers-arrays\CMakeFiles\memory.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 7-pointers-arrays\memory.exe
+  TARGET_IMPLIB = 7-pointers-arrays\libmemory.dll.a
+  TARGET_PDB = memory.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target pointer
 
 
@@ -2645,6 +2678,10 @@ build loop: phony 6-data-types/loop.exe
 
 build loop.exe: phony 6-data-types/loop.exe
 
+build memory: phony 7-pointers-arrays/memory.exe
+
+build memory.exe: phony 7-pointers-arrays/memory.exe
+
 build merge: phony 4-loops/merge.exe
 
 build merge-func: phony 5-function/merge-func.exe
@@ -2833,7 +2870,7 @@ build 6-data-types/all: phony 6-data-types/size.exe 6-data-types/int-limits.exe 
 #############################################
 # Folder: D:/cpl/2024-cpl-coding-0/cmake-build-debug/7-pointers-arrays
 
-build 7-pointers-arrays/all: phony 7-pointers-arrays/pointer.exe 7-pointers-arrays/selection-sort-pointers.exe 7-pointers-arrays/pointer-array.exe 7-pointers-arrays/pointer-const.exe
+build 7-pointers-arrays/all: phony 7-pointers-arrays/memory.exe 7-pointers-arrays/pointer.exe 7-pointers-arrays/selection-sort-pointers.exe 7-pointers-arrays/pointer-array.exe 7-pointers-arrays/pointer-const.exe
 
 # =============================================================================
 # Built-in targets
