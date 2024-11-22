@@ -84,3 +84,10 @@ D:/cpl/2024-cpl-coding-0/cmake-build-debug/7-pointers-arrays/CMakeFiles/pointer-
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/7-pointers-arrays/CMakeFiles/pointer-const.dir
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/7-pointers-arrays/CMakeFiles/edit_cache.dir
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/7-pointers-arrays/CMakeFiles/rebuild_cache.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/8-pointers-c-strings/CMakeFiles/str-literals.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/8-pointers-c-strings/CMakeFiles/strlen.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/8-pointers-c-strings/CMakeFiles/strcpy.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/8-pointers-c-strings/CMakeFiles/strcmp.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/8-pointers-c-strings/CMakeFiles/strcat.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/8-pointers-c-strings/CMakeFiles/edit_cache.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/8-pointers-c-strings/CMakeFiles/rebuild_cache.dir
