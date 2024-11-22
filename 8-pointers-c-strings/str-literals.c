@@ -8,13 +8,15 @@
 #include <string.h>
 
 int main(void) {
+  // char msg[] = { 'H', 'e', ..., '!', '\0' };
   char msg[] = "Hello World!";
   msg[0] = 'N';
   printf("%s\n", msg);
 
+  // char [15]
   char *ptr_msg = "Goodbye World!";
   ptr_msg[0] = 'N';
-  printf("%s\n", msg);
+  printf("%s\n", ptr_msg);
 
   return 0;
 }

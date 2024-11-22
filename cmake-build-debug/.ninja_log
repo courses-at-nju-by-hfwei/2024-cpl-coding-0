@@ -61,3 +61,7 @@
 562	992	7533656571869016	7-pointers-arrays/selection-sort-pointers.exe	2bba6d5e576d88b7
 11	1054	7521546543819073	6-data-types/CMakeFiles/unsinged-wrap.dir/unsigned-wrap.c.obj	2305de98fa757f08
 1206	1714	7521587686426285	6-data-types/sum-product.exe	8de0521889502fdc
+13	1508	7539670436646495	8-pointers-c-strings/CMakeFiles/str-literals.dir/str-literals.c.obj	eeff7866a379c42d
+1511	2840	7539670451006872	8-pointers-c-strings/str-literals.exe	4e936653061fab2f
+21	2320	7539711886857695	8-pointers-c-strings/CMakeFiles/strcpy.dir/strcpy.c.obj	bd6d94ff6fe0b806
+2323	3309	7539711896440465	8-pointers-c-strings/strcpy.exe	98d487b3deefc7b1
