@@ -2725,6 +2725,232 @@ build 8-pointers-c-strings/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build 8-pointers-c-strings/rebuild_cache: phony 8-pointers-c-strings/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/cpl/2024-cpl-coding-0/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target selection-sort-ints
+
+
+#############################################
+# Order-only phony target for selection-sort-ints
+
+build cmake_object_order_depends_target_selection-sort-ints: phony || .
+
+build 9-double-pointers/CMakeFiles/selection-sort-ints.dir/selection-sort.c.obj: C_COMPILER__selection-sort-ints_unscanned_Debug D$:/cpl/2024-cpl-coding-0/9-double-pointers/selection-sort.c || cmake_object_order_depends_target_selection-sort-ints
+  DEP_FILE = 9-double-pointers\CMakeFiles\selection-sort-ints.dir\selection-sort.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 9-double-pointers\CMakeFiles\selection-sort-ints.dir
+  OBJECT_FILE_DIR = 9-double-pointers\CMakeFiles\selection-sort-ints.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target selection-sort-ints
+
+
+#############################################
+# Link the executable 9-double-pointers\selection-sort-ints.exe
+
+build 9-double-pointers/selection-sort-ints.exe: C_EXECUTABLE_LINKER__selection-sort-ints_Debug 9-double-pointers/CMakeFiles/selection-sort-ints.dir/selection-sort.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 9-double-pointers\CMakeFiles\selection-sort-ints.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 9-double-pointers\selection-sort-ints.exe
+  TARGET_IMPLIB = 9-double-pointers\libselection-sort-ints.dll.a
+  TARGET_PDB = selection-sort-ints.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target selection-sort-strings
+
+
+#############################################
+# Order-only phony target for selection-sort-strings
+
+build cmake_object_order_depends_target_selection-sort-strings: phony || .
+
+build 9-double-pointers/CMakeFiles/selection-sort-strings.dir/selection-sort-strings.c.obj: C_COMPILER__selection-sort-strings_unscanned_Debug D$:/cpl/2024-cpl-coding-0/9-double-pointers/selection-sort-strings.c || cmake_object_order_depends_target_selection-sort-strings
+  DEP_FILE = 9-double-pointers\CMakeFiles\selection-sort-strings.dir\selection-sort-strings.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 9-double-pointers\CMakeFiles\selection-sort-strings.dir
+  OBJECT_FILE_DIR = 9-double-pointers\CMakeFiles\selection-sort-strings.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target selection-sort-strings
+
+
+#############################################
+# Link the executable 9-double-pointers\selection-sort-strings.exe
+
+build 9-double-pointers/selection-sort-strings.exe: C_EXECUTABLE_LINKER__selection-sort-strings_Debug 9-double-pointers/CMakeFiles/selection-sort-strings.dir/selection-sort-strings.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 9-double-pointers\CMakeFiles\selection-sort-strings.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 9-double-pointers\selection-sort-strings.exe
+  TARGET_IMPLIB = 9-double-pointers\libselection-sort-strings.dll.a
+  TARGET_PDB = selection-sort-strings.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target scores
+
+
+#############################################
+# Order-only phony target for scores
+
+build cmake_object_order_depends_target_scores: phony || .
+
+build 9-double-pointers/CMakeFiles/scores.dir/scores.c.obj: C_COMPILER__scores_unscanned_Debug D$:/cpl/2024-cpl-coding-0/9-double-pointers/scores.c || cmake_object_order_depends_target_scores
+  DEP_FILE = 9-double-pointers\CMakeFiles\scores.dir\scores.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 9-double-pointers\CMakeFiles\scores.dir
+  OBJECT_FILE_DIR = 9-double-pointers\CMakeFiles\scores.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target scores
+
+
+#############################################
+# Link the executable 9-double-pointers\scores.exe
+
+build 9-double-pointers/scores.exe: C_EXECUTABLE_LINKER__scores_Debug 9-double-pointers/CMakeFiles/scores.dir/scores.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 9-double-pointers\CMakeFiles\scores.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 9-double-pointers\scores.exe
+  TARGET_IMPLIB = 9-double-pointers\libscores.dll.a
+  TARGET_PDB = scores.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target echo
+
+
+#############################################
+# Order-only phony target for echo
+
+build cmake_object_order_depends_target_echo: phony || .
+
+build 9-double-pointers/CMakeFiles/echo.dir/echo.c.obj: C_COMPILER__echo_unscanned_Debug D$:/cpl/2024-cpl-coding-0/9-double-pointers/echo.c || cmake_object_order_depends_target_echo
+  DEP_FILE = 9-double-pointers\CMakeFiles\echo.dir\echo.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 9-double-pointers\CMakeFiles\echo.dir
+  OBJECT_FILE_DIR = 9-double-pointers\CMakeFiles\echo.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target echo
+
+
+#############################################
+# Link the executable 9-double-pointers\echo.exe
+
+build 9-double-pointers/echo.exe: C_EXECUTABLE_LINKER__echo_Debug 9-double-pointers/CMakeFiles/echo.dir/echo.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 9-double-pointers\CMakeFiles\echo.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 9-double-pointers\echo.exe
+  TARGET_IMPLIB = 9-double-pointers\libecho.dll.a
+  TARGET_PDB = echo.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target pointers-malloc
+
+
+#############################################
+# Order-only phony target for pointers-malloc
+
+build cmake_object_order_depends_target_pointers-malloc: phony || .
+
+build 9-double-pointers/CMakeFiles/pointers-malloc.dir/pointers-malloc.c.obj: C_COMPILER__pointers-malloc_unscanned_Debug D$:/cpl/2024-cpl-coding-0/9-double-pointers/pointers-malloc.c || cmake_object_order_depends_target_pointers-malloc
+  DEP_FILE = 9-double-pointers\CMakeFiles\pointers-malloc.dir\pointers-malloc.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 9-double-pointers\CMakeFiles\pointers-malloc.dir
+  OBJECT_FILE_DIR = 9-double-pointers\CMakeFiles\pointers-malloc.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pointers-malloc
+
+
+#############################################
+# Link the executable 9-double-pointers\pointers-malloc.exe
+
+build 9-double-pointers/pointers-malloc.exe: C_EXECUTABLE_LINKER__pointers-malloc_Debug 9-double-pointers/CMakeFiles/pointers-malloc.dir/pointers-malloc.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 9-double-pointers\CMakeFiles\pointers-malloc.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 9-double-pointers\pointers-malloc.exe
+  TARGET_IMPLIB = 9-double-pointers\libpointers-malloc.dll.a
+  TARGET_PDB = pointers-malloc.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target decl
+
+
+#############################################
+# Order-only phony target for decl
+
+build cmake_object_order_depends_target_decl: phony || .
+
+build 9-double-pointers/CMakeFiles/decl.dir/decl.c.obj: C_COMPILER__decl_unscanned_Debug D$:/cpl/2024-cpl-coding-0/9-double-pointers/decl.c || cmake_object_order_depends_target_decl
+  DEP_FILE = 9-double-pointers\CMakeFiles\decl.dir\decl.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 9-double-pointers\CMakeFiles\decl.dir
+  OBJECT_FILE_DIR = 9-double-pointers\CMakeFiles\decl.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target decl
+
+
+#############################################
+# Link the executable 9-double-pointers\decl.exe
+
+build 9-double-pointers/decl.exe: C_EXECUTABLE_LINKER__decl_Debug 9-double-pointers/CMakeFiles/decl.dir/decl.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 9-double-pointers\CMakeFiles\decl.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 9-double-pointers\decl.exe
+  TARGET_IMPLIB = 9-double-pointers\libdecl.dll.a
+  TARGET_PDB = decl.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 9-double-pointers/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\cpl\2024-cpl-coding-0\cmake-build-debug\9-double-pointers && "C:\Users\hfwei\AppData\Local\Programs\CLion 2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 9-double-pointers/edit_cache: phony 9-double-pointers/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 9-double-pointers/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\cpl\2024-cpl-coding-0\cmake-build-debug\9-double-pointers && "C:\Users\hfwei\AppData\Local\Programs\CLion 2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\cpl\2024-cpl-coding-0 -BD:\cpl\2024-cpl-coding-0\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 9-double-pointers/rebuild_cache: phony 9-double-pointers/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build admin: phony 1-types-io/admin.exe
@@ -2767,6 +2993,10 @@ build compare: phony 6-data-types/compare.exe
 
 build compare.exe: phony 6-data-types/compare.exe
 
+build decl: phony 9-double-pointers/decl.exe
+
+build decl.exe: phony 9-double-pointers/decl.exe
+
 build digits-do-while: phony 3-for-a-while/digits-do-while.exe
 
 build digits-do-while.exe: phony 3-for-a-while/digits-do-while.exe
@@ -2778,6 +3008,10 @@ build digits-for.exe: phony 3-for-a-while/digits-for.exe
 build digits-while: phony 3-for-a-while/digits-while.exe
 
 build digits-while.exe: phony 3-for-a-while/digits-while.exe
+
+build echo: phony 9-double-pointers/echo.exe
+
+build echo.exe: phony 9-double-pointers/echo.exe
 
 build exact-width: phony 6-data-types/exact-width.exe
 
@@ -2923,6 +3157,10 @@ build pointer-const.exe: phony 7-pointers-arrays/pointer-const.exe
 
 build pointer.exe: phony 7-pointers-arrays/pointer.exe
 
+build pointers-malloc: phony 9-double-pointers/pointers-malloc.exe
+
+build pointers-malloc.exe: phony 9-double-pointers/pointers-malloc.exe
+
 build primes: phony 3-for-a-while/primes.exe
 
 build primes-func: phony 5-function/primes-func.exe
@@ -2947,15 +3185,27 @@ build scanf-ub: phony 1-types-io/scanf-ub.exe
 
 build scanf-ub.exe: phony 1-types-io/scanf-ub.exe
 
+build scores: phony 9-double-pointers/scores.exe
+
+build scores.exe: phony 9-double-pointers/scores.exe
+
 build selection-sort: phony 3-for-a-while/selection-sort.exe
 
 build selection-sort-func: phony 5-function/selection-sort-func.exe
 
 build selection-sort-func.exe: phony 5-function/selection-sort-func.exe
 
+build selection-sort-ints: phony 9-double-pointers/selection-sort-ints.exe
+
+build selection-sort-ints.exe: phony 9-double-pointers/selection-sort-ints.exe
+
 build selection-sort-pointers: phony 7-pointers-arrays/selection-sort-pointers.exe
 
 build selection-sort-pointers.exe: phony 7-pointers-arrays/selection-sort-pointers.exe
+
+build selection-sort-strings: phony 9-double-pointers/selection-sort-strings.exe
+
+build selection-sort-strings.exe: phony 9-double-pointers/selection-sort-strings.exe
 
 build selection-sort.exe: phony 3-for-a-while/selection-sort.exe
 
@@ -3027,7 +3277,7 @@ build unsinged-wrap.exe: phony 6-data-types/unsinged-wrap.exe
 #############################################
 # Folder: D:/cpl/2024-cpl-coding-0/cmake-build-debug
 
-build all: phony 0-intro/all 1-types-io/all 2-if-for-array/all 3-for-a-while/all 4-loops/all 5-function/all 6-data-types/all 7-pointers-arrays/all 8-pointers-c-strings/all
+build all: phony 0-intro/all 1-types-io/all 2-if-for-array/all 3-for-a-while/all 4-loops/all 5-function/all 6-data-types/all 7-pointers-arrays/all 8-pointers-c-strings/all 9-double-pointers/all
 
 # =============================================================================
 
@@ -3093,20 +3343,27 @@ build 7-pointers-arrays/all: phony 7-pointers-arrays/memory.exe 7-pointers-array
 build 8-pointers-c-strings/all: phony 8-pointers-c-strings/str-literals.exe 8-pointers-c-strings/strlen.exe 8-pointers-c-strings/strcpy.exe 8-pointers-c-strings/strcmp.exe 8-pointers-c-strings/strcat.exe
 
 # =============================================================================
+
+#############################################
+# Folder: D:/cpl/2024-cpl-coding-0/cmake-build-debug/9-double-pointers
+
+build 9-double-pointers/all: phony 9-double-pointers/selection-sort-ints.exe 9-double-pointers/selection-sort-strings.exe 9-double-pointers/scores.exe 9-double-pointers/echo.exe 9-double-pointers/pointers-malloc.exe 9-double-pointers/decl.exe
+
+# =============================================================================
 # Built-in targets
 
 
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/cpl/2024-cpl-coding-0/0-intro/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/1-types-io/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/2-if-for-array/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/3-for-a-while/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/4-loops/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/5-function/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/6-data-types/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/7-pointers-arrays/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/8-pointers-c-strings/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/cpl/2024-cpl-coding-0/0-intro/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/1-types-io/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/2-if-for-array/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/3-for-a-while/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/4-loops/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/5-function/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/6-data-types/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/7-pointers-arrays/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/8-pointers-c-strings/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/9-double-pointers/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/cpl/2024-cpl-coding-0/0-intro/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/1-types-io/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/2-if-for-array/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/3-for-a-while/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/4-loops/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/5-function/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/6-data-types/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/7-pointers-arrays/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/8-pointers-c-strings/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/CMakeLists.txt: phony
+build C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/cpl/2024-cpl-coding-0/0-intro/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/1-types-io/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/2-if-for-array/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/3-for-a-while/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/4-loops/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/5-function/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/6-data-types/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/7-pointers-arrays/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/8-pointers-c-strings/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/9-double-pointers/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/CMakeLists.txt: phony
 
 
 #############################################

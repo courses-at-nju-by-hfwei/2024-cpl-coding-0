@@ -91,3 +91,11 @@ D:/cpl/2024-cpl-coding-0/cmake-build-debug/8-pointers-c-strings/CMakeFiles/strcm
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/8-pointers-c-strings/CMakeFiles/strcat.dir
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/8-pointers-c-strings/CMakeFiles/edit_cache.dir
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/8-pointers-c-strings/CMakeFiles/rebuild_cache.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/9-double-pointers/CMakeFiles/selection-sort-ints.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/9-double-pointers/CMakeFiles/selection-sort-strings.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/9-double-pointers/CMakeFiles/scores.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/9-double-pointers/CMakeFiles/echo.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/9-double-pointers/CMakeFiles/pointers-malloc.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/9-double-pointers/CMakeFiles/decl.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/9-double-pointers/CMakeFiles/edit_cache.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/9-double-pointers/CMakeFiles/rebuild_cache.dir
