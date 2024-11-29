@@ -14,6 +14,13 @@ int main(void) {
   int len = 0;
   scanf("%d", &len);
 
+//  const int var = 0;
+//  var = 10;
+//  int var = 0;
+//  const int *ptr_var = &var;
+//  *ptr_var = 10;
+//  var = 100;
+
   int *numbers = malloc(len * sizeof(*numbers));
 
   if (numbers == NULL) {
@@ -62,6 +69,8 @@ void Swap(int *left, int *right) {
 
 // TODO: Explain "const"
 void Print(const int *arr, int len) {
+//  // *(arr + 10) = 100;
+//  arr[10] = 100;
   printf("\n");
   for (int i = 0; i < len; i++) {
     printf("%d ", arr[i]);

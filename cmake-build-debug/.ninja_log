@@ -65,3 +65,13 @@
 303	846	7503411884310926	3-for-a-while/digits-while.exe	517d81e544eb800a
 1754	2562	7521582635848303	6-data-types/loop.exe	1025fddf682bb6a1
 17	1903	7509464344520451	4-loops/CMakeFiles/merge.dir/merge.c.obj	d6484d67f4226a7d
+46	1943	7545759186913137	9-double-pointers/CMakeFiles/scores.dir/scores.c.obj	ad26afb1c823c9b8
+1945	2940	7545759196352707	9-double-pointers/scores.exe	b029de9c13dd88e9
+41	652	7545759569029527	9-double-pointers/CMakeFiles/scores.dir/scores.c.obj	ad26afb1c823c9b8
+653	1314	7545759575415728	9-double-pointers/scores.exe	b029de9c13dd88e9
+29	1090	7545760317740237	9-double-pointers/CMakeFiles/scores.dir/scores.c.obj	ad26afb1c823c9b8
+1091	1659	7545760323224238	9-double-pointers/scores.exe	b029de9c13dd88e9
+16	1710	7545771721172126	9-double-pointers/CMakeFiles/echo.dir/echo.c.obj	aca940618523c11c
+1712	3046	7545771734863017	9-double-pointers/echo.exe	aa5611f31a50d09f
+11	269	7545776024510549	9-double-pointers/CMakeFiles/echo.dir/echo.c.obj	aca940618523c11c
+270	1626	7545776037052365	9-double-pointers/echo.exe	aa5611f31a50d09f
