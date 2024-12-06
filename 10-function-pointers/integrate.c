@@ -7,10 +7,27 @@
 
 #define NUM_OF_PARTITIONS 1000000
 
+double Integrate(double low, double high, double (*f)(double));
+double Square(double x);
+
 int main() {
   double low = 0.0;
   double high = 1.0;
   double integration = 0.0;
+
+  integration = Integrate(low, high, sin);
+  printf("Sin(0.0 ... 1.0) = %f\n", integration);
+
+  integration = Integrate(low, high, cos);
+  printf("Cos(0.0 ... 1.0) = %f\n", integration);
+
+  integration = Integrate(low, high, Square);
+  printf("Square(0.0 ... 1.0) = %f\n", integration);
+
+  double (*funcs[])(double) = {sin, cos, Square};
+  for (int i = 0; i < 3; ++i) {
+    printf("Integration: %f\n", Integrate(low, high, funcs[i]));
+  }
 
   return 0;
 }
@@ -22,8 +39,13 @@ double Integrate(double low, double high, double (*f)(double)) {
   for (int i = 0; i < NUM_OF_PARTITIONS; i++) {
     double xi = low + i * interval;
     double yi = f(xi);
+//    double yi = (*******f)(xi);
     sum += yi * interval;
   }
 
   return sum;
+}
+
+double Square(double x) {
+  return x * x;
 }

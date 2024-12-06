@@ -13,7 +13,12 @@ void *bsearch(const void *__key,
               const void *__base, size_t __nmemb, size_t __size,
               __compar_fn_t __compar);
 
+__compar_fn_t ChooseCompareFunction(bool is_sensitive);
+//int (*ChooseCompareFunction(bool))(const void *, const void *);
+
 int CompareStrs(const void *left, const void *right);
+// CI: case insensitive
+int CompareStrsCI(const void *left, const void *right);
 
 const char *names[] = {
     "Cui Jian",
@@ -25,16 +30,39 @@ const char *names[] = {
     "Wan Qing",
     "Yao",
     "Zhang Chu",
-    "Zhang Chu",
-    "Zhang Chu",
-    "Zhang Chu",
     "ZuoXiao",
 };
 
 int main(void) {
-  char *key_name = "Zhang Chu";
+  char *key_name = "zhang chu";
 
+  const char **name_ptr = bsearch(&key_name,
+                                  names, sizeof names / sizeof *names, sizeof *names,
+                                  ChooseCompareFunction(true));
+  if (name_ptr == NULL) {
+    printf("Not Found\n");
+  } else {
+    printf("Found at %lld\n", name_ptr - names);
+  }
   return 0;
+}
+
+int CompareStrs(const void *left, const void *right) {
+  char *const *left_str_ptr = left;
+  char *const *right_str_ptr = right;
+
+  return strcmp(*left_str_ptr, *right_str_ptr);
+}
+
+int CompareStrsCI(const void *left, const void *right) {
+  char *const *left_str_ptr = left;
+  char *const *right_str_ptr = right;
+
+  return strcasecmp(*left_str_ptr, *right_str_ptr);
+}
+
+int (*ChooseCompareFunction(bool is_sensitive))(const void *, const void *) {
+  return is_sensitive ? &CompareStrs : &CompareStrsCI;
 }
 
 void *bsearch(const void *__key,
