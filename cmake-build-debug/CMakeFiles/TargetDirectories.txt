@@ -99,3 +99,12 @@ D:/cpl/2024-cpl-coding-0/cmake-build-debug/9-double-pointers/CMakeFiles/pointers
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/9-double-pointers/CMakeFiles/decl.dir
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/9-double-pointers/CMakeFiles/edit_cache.dir
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/9-double-pointers/CMakeFiles/rebuild_cache.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/10-function-pointers/CMakeFiles/integrate.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/10-function-pointers/CMakeFiles/sort.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/10-function-pointers/CMakeFiles/bsearch.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/10-function-pointers/CMakeFiles/bsearch-gnuc.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/10-function-pointers/CMakeFiles/11-decl.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/10-function-pointers/CMakeFiles/atexit.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/10-function-pointers/CMakeFiles/signal.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/10-function-pointers/CMakeFiles/edit_cache.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/10-function-pointers/CMakeFiles/rebuild_cache.dir
