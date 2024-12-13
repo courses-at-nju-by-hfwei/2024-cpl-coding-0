@@ -108,3 +108,10 @@ D:/cpl/2024-cpl-coding-0/cmake-build-debug/10-function-pointers/CMakeFiles/atexi
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/10-function-pointers/CMakeFiles/signal.dir
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/10-function-pointers/CMakeFiles/edit_cache.dir
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/10-function-pointers/CMakeFiles/rebuild_cache.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/11-struct/CMakeFiles/admin-struct.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/11-struct/CMakeFiles/musician.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/11-struct/CMakeFiles/padding.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/11-struct/CMakeFiles/sds.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/11-struct/CMakeFiles/sds-202412.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/11-struct/CMakeFiles/edit_cache.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/11-struct/CMakeFiles/rebuild_cache.dir

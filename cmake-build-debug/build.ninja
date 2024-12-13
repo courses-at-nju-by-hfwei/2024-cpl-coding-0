@@ -3210,6 +3210,199 @@ build 10-function-pointers/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build 10-function-pointers/rebuild_cache: phony 10-function-pointers/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/cpl/2024-cpl-coding-0/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target admin-struct
+
+
+#############################################
+# Order-only phony target for admin-struct
+
+build cmake_object_order_depends_target_admin-struct: phony || .
+
+build 11-struct/CMakeFiles/admin-struct.dir/admin.c.obj: C_COMPILER__admin-struct_unscanned_Debug D$:/cpl/2024-cpl-coding-0/11-struct/admin.c || cmake_object_order_depends_target_admin-struct
+  DEP_FILE = 11-struct\CMakeFiles\admin-struct.dir\admin.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 11-struct\CMakeFiles\admin-struct.dir
+  OBJECT_FILE_DIR = 11-struct\CMakeFiles\admin-struct.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target admin-struct
+
+
+#############################################
+# Link the executable 11-struct\admin-struct.exe
+
+build 11-struct/admin-struct.exe: C_EXECUTABLE_LINKER__admin-struct_Debug 11-struct/CMakeFiles/admin-struct.dir/admin.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 11-struct\CMakeFiles\admin-struct.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 11-struct\admin-struct.exe
+  TARGET_IMPLIB = 11-struct\libadmin-struct.dll.a
+  TARGET_PDB = admin-struct.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target musician
+
+
+#############################################
+# Order-only phony target for musician
+
+build cmake_object_order_depends_target_musician: phony || .
+
+build 11-struct/CMakeFiles/musician.dir/musician.c.obj: C_COMPILER__musician_unscanned_Debug D$:/cpl/2024-cpl-coding-0/11-struct/musician.c || cmake_object_order_depends_target_musician
+  DEP_FILE = 11-struct\CMakeFiles\musician.dir\musician.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 11-struct\CMakeFiles\musician.dir
+  OBJECT_FILE_DIR = 11-struct\CMakeFiles\musician.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target musician
+
+
+#############################################
+# Link the executable 11-struct\musician.exe
+
+build 11-struct/musician.exe: C_EXECUTABLE_LINKER__musician_Debug 11-struct/CMakeFiles/musician.dir/musician.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 11-struct\CMakeFiles\musician.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 11-struct\musician.exe
+  TARGET_IMPLIB = 11-struct\libmusician.dll.a
+  TARGET_PDB = musician.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target padding
+
+
+#############################################
+# Order-only phony target for padding
+
+build cmake_object_order_depends_target_padding: phony || .
+
+build 11-struct/CMakeFiles/padding.dir/offset.c.obj: C_COMPILER__padding_unscanned_Debug D$:/cpl/2024-cpl-coding-0/11-struct/offset.c || cmake_object_order_depends_target_padding
+  DEP_FILE = 11-struct\CMakeFiles\padding.dir\offset.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 11-struct\CMakeFiles\padding.dir
+  OBJECT_FILE_DIR = 11-struct\CMakeFiles\padding.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target padding
+
+
+#############################################
+# Link the executable 11-struct\padding.exe
+
+build 11-struct/padding.exe: C_EXECUTABLE_LINKER__padding_Debug 11-struct/CMakeFiles/padding.dir/offset.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 11-struct\CMakeFiles\padding.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 11-struct\padding.exe
+  TARGET_IMPLIB = 11-struct\libpadding.dll.a
+  TARGET_PDB = padding.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sds
+
+
+#############################################
+# Order-only phony target for sds
+
+build cmake_object_order_depends_target_sds: phony || .
+
+build 11-struct/CMakeFiles/sds.dir/sds.c.obj: C_COMPILER__sds_unscanned_Debug D$:/cpl/2024-cpl-coding-0/11-struct/sds.c || cmake_object_order_depends_target_sds
+  DEP_FILE = 11-struct\CMakeFiles\sds.dir\sds.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 11-struct\CMakeFiles\sds.dir
+  OBJECT_FILE_DIR = 11-struct\CMakeFiles\sds.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sds
+
+
+#############################################
+# Link the executable 11-struct\sds.exe
+
+build 11-struct/sds.exe: C_EXECUTABLE_LINKER__sds_Debug 11-struct/CMakeFiles/sds.dir/sds.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 11-struct\CMakeFiles\sds.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 11-struct\sds.exe
+  TARGET_IMPLIB = 11-struct\libsds.dll.a
+  TARGET_PDB = sds.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sds-202412
+
+
+#############################################
+# Order-only phony target for sds-202412
+
+build cmake_object_order_depends_target_sds-202412: phony || .
+
+build 11-struct/CMakeFiles/sds-202412.dir/sds-202412.c.obj: C_COMPILER__sds-202412_unscanned_Debug D$:/cpl/2024-cpl-coding-0/11-struct/sds-202412.c || cmake_object_order_depends_target_sds-202412
+  DEP_FILE = 11-struct\CMakeFiles\sds-202412.dir\sds-202412.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 11-struct\CMakeFiles\sds-202412.dir
+  OBJECT_FILE_DIR = 11-struct\CMakeFiles\sds-202412.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sds-202412
+
+
+#############################################
+# Link the executable 11-struct\sds-202412.exe
+
+build 11-struct/sds-202412.exe: C_EXECUTABLE_LINKER__sds-202412_Debug 11-struct/CMakeFiles/sds-202412.dir/sds-202412.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 11-struct\CMakeFiles\sds-202412.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 11-struct\sds-202412.exe
+  TARGET_IMPLIB = 11-struct\libsds-202412.dll.a
+  TARGET_PDB = sds-202412.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 11-struct/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\cpl\2024-cpl-coding-0\cmake-build-debug\11-struct && "C:\Users\hfwei\AppData\Local\Programs\CLion 2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 11-struct/edit_cache: phony 11-struct/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 11-struct/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\cpl\2024-cpl-coding-0\cmake-build-debug\11-struct && "C:\Users\hfwei\AppData\Local\Programs\CLion 2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\cpl\2024-cpl-coding-0 -BD:\cpl\2024-cpl-coding-0\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 11-struct/rebuild_cache: phony 11-struct/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build 11-decl: phony 10-function-pointers/11-decl.exe
@@ -3221,6 +3414,10 @@ build admin: phony 1-types-io/admin.exe
 build admin-scanf: phony 1-types-io/admin-scanf.exe
 
 build admin-scanf.exe: phony 1-types-io/admin-scanf.exe
+
+build admin-struct: phony 11-struct/admin-struct.exe
+
+build admin-struct.exe: phony 11-struct/admin-struct.exe
 
 build admin.exe: phony 1-types-io/admin.exe
 
@@ -3416,6 +3613,14 @@ build mol: phony 1-types-io/mol.exe
 
 build mol.exe: phony 1-types-io/mol.exe
 
+build musician: phony 11-struct/musician.exe
+
+build musician.exe: phony 11-struct/musician.exe
+
+build padding: phony 11-struct/padding.exe
+
+build padding.exe: phony 11-struct/padding.exe
+
 build palindrome: phony 3-for-a-while/palindrome.exe
 
 build palindrome-func: phony 5-function/palindrome-func.exe
@@ -3467,6 +3672,14 @@ build scanf-ub.exe: phony 1-types-io/scanf-ub.exe
 build scores: phony 9-double-pointers/scores.exe
 
 build scores.exe: phony 9-double-pointers/scores.exe
+
+build sds: phony 11-struct/sds.exe
+
+build sds-202412: phony 11-struct/sds-202412.exe
+
+build sds-202412.exe: phony 11-struct/sds-202412.exe
+
+build sds.exe: phony 11-struct/sds.exe
 
 build selection-sort: phony 3-for-a-while/selection-sort.exe
 
@@ -3564,7 +3777,7 @@ build unsinged-wrap.exe: phony 6-data-types/unsinged-wrap.exe
 #############################################
 # Folder: D:/cpl/2024-cpl-coding-0/cmake-build-debug
 
-build all: phony 0-intro/all 1-types-io/all 2-if-for-array/all 3-for-a-while/all 4-loops/all 5-function/all 6-data-types/all 7-pointers-arrays/all 8-pointers-c-strings/all 9-double-pointers/all 10-function-pointers/all
+build all: phony 0-intro/all 1-types-io/all 2-if-for-array/all 3-for-a-while/all 4-loops/all 5-function/all 6-data-types/all 7-pointers-arrays/all 8-pointers-c-strings/all 9-double-pointers/all 10-function-pointers/all 11-struct/all
 
 # =============================================================================
 
@@ -3586,6 +3799,13 @@ build 1-types-io/all: phony 1-types-io/circle.exe 1-types-io/sphere.exe 1-types-
 # Folder: D:/cpl/2024-cpl-coding-0/cmake-build-debug/10-function-pointers
 
 build 10-function-pointers/all: phony 10-function-pointers/integrate.exe 10-function-pointers/sort.exe 10-function-pointers/bsearch.exe 10-function-pointers/bsearch-gnuc.exe 10-function-pointers/11-decl.exe 10-function-pointers/atexit.exe 10-function-pointers/signal.exe
+
+# =============================================================================
+
+#############################################
+# Folder: D:/cpl/2024-cpl-coding-0/cmake-build-debug/11-struct
+
+build 11-struct/all: phony 11-struct/admin-struct.exe 11-struct/musician.exe 11-struct/padding.exe 11-struct/sds.exe 11-struct/sds-202412.exe
 
 # =============================================================================
 
@@ -3650,14 +3870,14 @@ build 9-double-pointers/all: phony 9-double-pointers/selection-sort-ints.exe 9-d
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/cpl/2024-cpl-coding-0/0-intro/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/1-types-io/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/10-function-pointers/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/2-if-for-array/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/3-for-a-while/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/4-loops/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/5-function/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/6-data-types/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/7-pointers-arrays/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/8-pointers-c-strings/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/9-double-pointers/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/cpl/2024-cpl-coding-0/0-intro/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/1-types-io/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/10-function-pointers/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/11-struct/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/2-if-for-array/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/3-for-a-while/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/4-loops/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/5-function/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/6-data-types/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/7-pointers-arrays/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/8-pointers-c-strings/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/9-double-pointers/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/cpl/2024-cpl-coding-0/0-intro/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/1-types-io/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/10-function-pointers/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/2-if-for-array/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/3-for-a-while/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/4-loops/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/5-function/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/6-data-types/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/7-pointers-arrays/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/8-pointers-c-strings/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/9-double-pointers/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/CMakeLists.txt: phony
+build C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/cpl/2024-cpl-coding-0/0-intro/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/1-types-io/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/10-function-pointers/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/11-struct/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/2-if-for-array/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/3-for-a-while/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/4-loops/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/5-function/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/6-data-types/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/7-pointers-arrays/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/8-pointers-c-strings/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/9-double-pointers/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/CMakeLists.txt: phony
 
 
 #############################################
