@@ -115,3 +115,6 @@ D:/cpl/2024-cpl-coding-0/cmake-build-debug/11-struct/CMakeFiles/sds.dir
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/11-struct/CMakeFiles/sds-202412.dir
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/11-struct/CMakeFiles/edit_cache.dir
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/11-struct/CMakeFiles/rebuild_cache.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/12-linked-list/CMakeFiles/josephus.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/12-linked-list/CMakeFiles/edit_cache.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/12-linked-list/CMakeFiles/rebuild_cache.dir
