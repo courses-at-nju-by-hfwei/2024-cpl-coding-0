@@ -3419,8 +3419,16 @@ build cmake_object_order_depends_target_josephus: phony || .
 build 12-linked-list/CMakeFiles/josephus.dir/josephus.c.obj: C_COMPILER__josephus_unscanned_Debug D$:/cpl/2024-cpl-coding-0/12-linked-list/josephus.c || cmake_object_order_depends_target_josephus
   DEP_FILE = 12-linked-list\CMakeFiles\josephus.dir\josephus.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/cpl/2024-cpl-coding-0/12-linked-list/ll
   OBJECT_DIR = 12-linked-list\CMakeFiles\josephus.dir
   OBJECT_FILE_DIR = 12-linked-list\CMakeFiles\josephus.dir
+
+build 12-linked-list/CMakeFiles/josephus.dir/ll/ll.c.obj: C_COMPILER__josephus_unscanned_Debug D$:/cpl/2024-cpl-coding-0/12-linked-list/ll/ll.c || cmake_object_order_depends_target_josephus
+  DEP_FILE = 12-linked-list\CMakeFiles\josephus.dir\ll\ll.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/cpl/2024-cpl-coding-0/12-linked-list/ll
+  OBJECT_DIR = 12-linked-list\CMakeFiles\josephus.dir
+  OBJECT_FILE_DIR = 12-linked-list\CMakeFiles\josephus.dir\ll
 
 
 # =============================================================================
@@ -3430,7 +3438,7 @@ build 12-linked-list/CMakeFiles/josephus.dir/josephus.c.obj: C_COMPILER__josephu
 #############################################
 # Link the executable 12-linked-list\josephus.exe
 
-build 12-linked-list/josephus.exe: C_EXECUTABLE_LINKER__josephus_Debug 12-linked-list/CMakeFiles/josephus.dir/josephus.c.obj
+build 12-linked-list/josephus.exe: C_EXECUTABLE_LINKER__josephus_Debug 12-linked-list/CMakeFiles/josephus.dir/josephus.c.obj 12-linked-list/CMakeFiles/josephus.dir/ll/ll.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = 12-linked-list\CMakeFiles\josephus.dir
