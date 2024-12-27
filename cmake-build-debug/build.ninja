@@ -3472,6 +3472,562 @@ build 12-linked-list/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build 12-linked-list/rebuild_cache: phony 12-linked-list/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/cpl/2024-cpl-coding-0/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target main-re
+
+
+#############################################
+# Order-only phony target for main-re
+
+build cmake_object_order_depends_target_main-re: phony || .
+
+build 13-recursion/CMakeFiles/main-re.dir/main-re.c.obj: C_COMPILER__main-re_unscanned_Debug D$:/cpl/2024-cpl-coding-0/13-recursion/main-re.c || cmake_object_order_depends_target_main-re
+  DEP_FILE = 13-recursion\CMakeFiles\main-re.dir\main-re.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 13-recursion\CMakeFiles\main-re.dir
+  OBJECT_FILE_DIR = 13-recursion\CMakeFiles\main-re.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target main-re
+
+
+#############################################
+# Link the executable 13-recursion\main-re.exe
+
+build 13-recursion/main-re.exe: C_EXECUTABLE_LINKER__main-re_Debug 13-recursion/CMakeFiles/main-re.dir/main-re.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 13-recursion\CMakeFiles\main-re.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 13-recursion\main-re.exe
+  TARGET_IMPLIB = 13-recursion\libmain-re.dll.a
+  TARGET_PDB = main-re.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target stairs
+
+
+#############################################
+# Order-only phony target for stairs
+
+build cmake_object_order_depends_target_stairs: phony || .
+
+build 13-recursion/CMakeFiles/stairs.dir/stairs.c.obj: C_COMPILER__stairs_unscanned_Debug D$:/cpl/2024-cpl-coding-0/13-recursion/stairs.c || cmake_object_order_depends_target_stairs
+  DEP_FILE = 13-recursion\CMakeFiles\stairs.dir\stairs.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 13-recursion\CMakeFiles\stairs.dir
+  OBJECT_FILE_DIR = 13-recursion\CMakeFiles\stairs.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target stairs
+
+
+#############################################
+# Link the executable 13-recursion\stairs.exe
+
+build 13-recursion/stairs.exe: C_EXECUTABLE_LINKER__stairs_Debug 13-recursion/CMakeFiles/stairs.dir/stairs.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 13-recursion\CMakeFiles\stairs.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 13-recursion\stairs.exe
+  TARGET_IMPLIB = 13-recursion\libstairs.dll.a
+  TARGET_PDB = stairs.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target min
+
+
+#############################################
+# Order-only phony target for min
+
+build cmake_object_order_depends_target_min: phony || .
+
+build 13-recursion/CMakeFiles/min.dir/min.c.obj: C_COMPILER__min_unscanned_Debug D$:/cpl/2024-cpl-coding-0/13-recursion/min.c || cmake_object_order_depends_target_min
+  DEP_FILE = 13-recursion\CMakeFiles\min.dir\min.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 13-recursion\CMakeFiles\min.dir
+  OBJECT_FILE_DIR = 13-recursion\CMakeFiles\min.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target min
+
+
+#############################################
+# Link the executable 13-recursion\min.exe
+
+build 13-recursion/min.exe: C_EXECUTABLE_LINKER__min_Debug 13-recursion/CMakeFiles/min.dir/min.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 13-recursion\CMakeFiles\min.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 13-recursion\min.exe
+  TARGET_IMPLIB = 13-recursion\libmin.dll.a
+  TARGET_PDB = min.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target min-re
+
+
+#############################################
+# Order-only phony target for min-re
+
+build cmake_object_order_depends_target_min-re: phony || .
+
+build 13-recursion/CMakeFiles/min-re.dir/min-re.c.obj: C_COMPILER__min-re_unscanned_Debug D$:/cpl/2024-cpl-coding-0/13-recursion/min-re.c || cmake_object_order_depends_target_min-re
+  DEP_FILE = 13-recursion\CMakeFiles\min-re.dir\min-re.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 13-recursion\CMakeFiles\min-re.dir
+  OBJECT_FILE_DIR = 13-recursion\CMakeFiles\min-re.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target min-re
+
+
+#############################################
+# Link the executable 13-recursion\min-re.exe
+
+build 13-recursion/min-re.exe: C_EXECUTABLE_LINKER__min-re_Debug 13-recursion/CMakeFiles/min-re.dir/min-re.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 13-recursion\CMakeFiles\min-re.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 13-recursion\min-re.exe
+  TARGET_IMPLIB = 13-recursion\libmin-re.dll.a
+  TARGET_PDB = min-re.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sum-re
+
+
+#############################################
+# Order-only phony target for sum-re
+
+build cmake_object_order_depends_target_sum-re: phony || .
+
+build 13-recursion/CMakeFiles/sum-re.dir/sum-re.c.obj: C_COMPILER__sum-re_unscanned_Debug D$:/cpl/2024-cpl-coding-0/13-recursion/sum-re.c || cmake_object_order_depends_target_sum-re
+  DEP_FILE = 13-recursion\CMakeFiles\sum-re.dir\sum-re.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 13-recursion\CMakeFiles\sum-re.dir
+  OBJECT_FILE_DIR = 13-recursion\CMakeFiles\sum-re.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sum-re
+
+
+#############################################
+# Link the executable 13-recursion\sum-re.exe
+
+build 13-recursion/sum-re.exe: C_EXECUTABLE_LINKER__sum-re_Debug 13-recursion/CMakeFiles/sum-re.dir/sum-re.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 13-recursion\CMakeFiles\sum-re.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 13-recursion\sum-re.exe
+  TARGET_IMPLIB = 13-recursion\libsum-re.dll.a
+  TARGET_PDB = sum-re.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target fib-re
+
+
+#############################################
+# Order-only phony target for fib-re
+
+build cmake_object_order_depends_target_fib-re: phony || .
+
+build 13-recursion/CMakeFiles/fib-re.dir/fib-re.c.obj: C_COMPILER__fib-re_unscanned_Debug D$:/cpl/2024-cpl-coding-0/13-recursion/fib-re.c || cmake_object_order_depends_target_fib-re
+  DEP_FILE = 13-recursion\CMakeFiles\fib-re.dir\fib-re.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 13-recursion\CMakeFiles\fib-re.dir
+  OBJECT_FILE_DIR = 13-recursion\CMakeFiles\fib-re.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target fib-re
+
+
+#############################################
+# Link the executable 13-recursion\fib-re.exe
+
+build 13-recursion/fib-re.exe: C_EXECUTABLE_LINKER__fib-re_Debug 13-recursion/CMakeFiles/fib-re.dir/fib-re.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 13-recursion\CMakeFiles\fib-re.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 13-recursion\fib-re.exe
+  TARGET_IMPLIB = 13-recursion\libfib-re.dll.a
+  TARGET_PDB = fib-re.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target fib-iter
+
+
+#############################################
+# Order-only phony target for fib-iter
+
+build cmake_object_order_depends_target_fib-iter: phony || .
+
+build 13-recursion/CMakeFiles/fib-iter.dir/fib-iter.c.obj: C_COMPILER__fib-iter_unscanned_Debug D$:/cpl/2024-cpl-coding-0/13-recursion/fib-iter.c || cmake_object_order_depends_target_fib-iter
+  DEP_FILE = 13-recursion\CMakeFiles\fib-iter.dir\fib-iter.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 13-recursion\CMakeFiles\fib-iter.dir
+  OBJECT_FILE_DIR = 13-recursion\CMakeFiles\fib-iter.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target fib-iter
+
+
+#############################################
+# Link the executable 13-recursion\fib-iter.exe
+
+build 13-recursion/fib-iter.exe: C_EXECUTABLE_LINKER__fib-iter_Debug 13-recursion/CMakeFiles/fib-iter.dir/fib-iter.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 13-recursion\CMakeFiles\fib-iter.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 13-recursion\fib-iter.exe
+  TARGET_IMPLIB = 13-recursion\libfib-iter.dll.a
+  TARGET_PDB = fib-iter.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target fib-array
+
+
+#############################################
+# Order-only phony target for fib-array
+
+build cmake_object_order_depends_target_fib-array: phony || .
+
+build 13-recursion/CMakeFiles/fib-array.dir/fib-array.c.obj: C_COMPILER__fib-array_unscanned_Debug D$:/cpl/2024-cpl-coding-0/13-recursion/fib-array.c || cmake_object_order_depends_target_fib-array
+  DEP_FILE = 13-recursion\CMakeFiles\fib-array.dir\fib-array.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 13-recursion\CMakeFiles\fib-array.dir
+  OBJECT_FILE_DIR = 13-recursion\CMakeFiles\fib-array.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target fib-array
+
+
+#############################################
+# Link the executable 13-recursion\fib-array.exe
+
+build 13-recursion/fib-array.exe: C_EXECUTABLE_LINKER__fib-array_Debug 13-recursion/CMakeFiles/fib-array.dir/fib-array.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 13-recursion\CMakeFiles\fib-array.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 13-recursion\fib-array.exe
+  TARGET_IMPLIB = 13-recursion\libfib-array.dll.a
+  TARGET_PDB = fib-array.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target gcd-re
+
+
+#############################################
+# Order-only phony target for gcd-re
+
+build cmake_object_order_depends_target_gcd-re: phony || .
+
+build 13-recursion/CMakeFiles/gcd-re.dir/gcd-re.c.obj: C_COMPILER__gcd-re_unscanned_Debug D$:/cpl/2024-cpl-coding-0/13-recursion/gcd-re.c || cmake_object_order_depends_target_gcd-re
+  DEP_FILE = 13-recursion\CMakeFiles\gcd-re.dir\gcd-re.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 13-recursion\CMakeFiles\gcd-re.dir
+  OBJECT_FILE_DIR = 13-recursion\CMakeFiles\gcd-re.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target gcd-re
+
+
+#############################################
+# Link the executable 13-recursion\gcd-re.exe
+
+build 13-recursion/gcd-re.exe: C_EXECUTABLE_LINKER__gcd-re_Debug 13-recursion/CMakeFiles/gcd-re.dir/gcd-re.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 13-recursion\CMakeFiles\gcd-re.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 13-recursion\gcd-re.exe
+  TARGET_IMPLIB = 13-recursion\libgcd-re.dll.a
+  TARGET_PDB = gcd-re.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target gcd-iter
+
+
+#############################################
+# Order-only phony target for gcd-iter
+
+build cmake_object_order_depends_target_gcd-iter: phony || .
+
+build 13-recursion/CMakeFiles/gcd-iter.dir/gcd-iter.c.obj: C_COMPILER__gcd-iter_unscanned_Debug D$:/cpl/2024-cpl-coding-0/13-recursion/gcd-iter.c || cmake_object_order_depends_target_gcd-iter
+  DEP_FILE = 13-recursion\CMakeFiles\gcd-iter.dir\gcd-iter.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 13-recursion\CMakeFiles\gcd-iter.dir
+  OBJECT_FILE_DIR = 13-recursion\CMakeFiles\gcd-iter.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target gcd-iter
+
+
+#############################################
+# Link the executable 13-recursion\gcd-iter.exe
+
+build 13-recursion/gcd-iter.exe: C_EXECUTABLE_LINKER__gcd-iter_Debug 13-recursion/CMakeFiles/gcd-iter.dir/gcd-iter.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 13-recursion\CMakeFiles\gcd-iter.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 13-recursion\gcd-iter.exe
+  TARGET_IMPLIB = 13-recursion\libgcd-iter.dll.a
+  TARGET_PDB = gcd-iter.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bsearch-iter
+
+
+#############################################
+# Order-only phony target for bsearch-iter
+
+build cmake_object_order_depends_target_bsearch-iter: phony || .
+
+build 13-recursion/CMakeFiles/bsearch-iter.dir/bsearch-iter.c.obj: C_COMPILER__bsearch-iter_unscanned_Debug D$:/cpl/2024-cpl-coding-0/13-recursion/bsearch-iter.c || cmake_object_order_depends_target_bsearch-iter
+  DEP_FILE = 13-recursion\CMakeFiles\bsearch-iter.dir\bsearch-iter.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 13-recursion\CMakeFiles\bsearch-iter.dir
+  OBJECT_FILE_DIR = 13-recursion\CMakeFiles\bsearch-iter.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bsearch-iter
+
+
+#############################################
+# Link the executable 13-recursion\bsearch-iter.exe
+
+build 13-recursion/bsearch-iter.exe: C_EXECUTABLE_LINKER__bsearch-iter_Debug 13-recursion/CMakeFiles/bsearch-iter.dir/bsearch-iter.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 13-recursion\CMakeFiles\bsearch-iter.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 13-recursion\bsearch-iter.exe
+  TARGET_IMPLIB = 13-recursion\libbsearch-iter.dll.a
+  TARGET_PDB = bsearch-iter.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bsearch-re
+
+
+#############################################
+# Order-only phony target for bsearch-re
+
+build cmake_object_order_depends_target_bsearch-re: phony || .
+
+build 13-recursion/CMakeFiles/bsearch-re.dir/bsearch-re.c.obj: C_COMPILER__bsearch-re_unscanned_Debug D$:/cpl/2024-cpl-coding-0/13-recursion/bsearch-re.c || cmake_object_order_depends_target_bsearch-re
+  DEP_FILE = 13-recursion\CMakeFiles\bsearch-re.dir\bsearch-re.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 13-recursion\CMakeFiles\bsearch-re.dir
+  OBJECT_FILE_DIR = 13-recursion\CMakeFiles\bsearch-re.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bsearch-re
+
+
+#############################################
+# Link the executable 13-recursion\bsearch-re.exe
+
+build 13-recursion/bsearch-re.exe: C_EXECUTABLE_LINKER__bsearch-re_Debug 13-recursion/CMakeFiles/bsearch-re.dir/bsearch-re.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 13-recursion\CMakeFiles\bsearch-re.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 13-recursion\bsearch-re.exe
+  TARGET_IMPLIB = 13-recursion\libbsearch-re.dll.a
+  TARGET_PDB = bsearch-re.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target merge-array
+
+
+#############################################
+# Order-only phony target for merge-array
+
+build cmake_object_order_depends_target_merge-array: phony || .
+
+build 13-recursion/CMakeFiles/merge-array.dir/merge.c.obj: C_COMPILER__merge-array_unscanned_Debug D$:/cpl/2024-cpl-coding-0/13-recursion/merge.c || cmake_object_order_depends_target_merge-array
+  DEP_FILE = 13-recursion\CMakeFiles\merge-array.dir\merge.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 13-recursion\CMakeFiles\merge-array.dir
+  OBJECT_FILE_DIR = 13-recursion\CMakeFiles\merge-array.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target merge-array
+
+
+#############################################
+# Link the executable 13-recursion\merge-array.exe
+
+build 13-recursion/merge-array.exe: C_EXECUTABLE_LINKER__merge-array_Debug 13-recursion/CMakeFiles/merge-array.dir/merge.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 13-recursion\CMakeFiles\merge-array.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 13-recursion\merge-array.exe
+  TARGET_IMPLIB = 13-recursion\libmerge-array.dll.a
+  TARGET_PDB = merge-array.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target mergesort-re
+
+
+#############################################
+# Order-only phony target for mergesort-re
+
+build cmake_object_order_depends_target_mergesort-re: phony || .
+
+build 13-recursion/CMakeFiles/mergesort-re.dir/mergesort-re.c.obj: C_COMPILER__mergesort-re_unscanned_Debug D$:/cpl/2024-cpl-coding-0/13-recursion/mergesort-re.c || cmake_object_order_depends_target_mergesort-re
+  DEP_FILE = 13-recursion\CMakeFiles\mergesort-re.dir\mergesort-re.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 13-recursion\CMakeFiles\mergesort-re.dir
+  OBJECT_FILE_DIR = 13-recursion\CMakeFiles\mergesort-re.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target mergesort-re
+
+
+#############################################
+# Link the executable 13-recursion\mergesort-re.exe
+
+build 13-recursion/mergesort-re.exe: C_EXECUTABLE_LINKER__mergesort-re_Debug 13-recursion/CMakeFiles/mergesort-re.dir/mergesort-re.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 13-recursion\CMakeFiles\mergesort-re.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 13-recursion\mergesort-re.exe
+  TARGET_IMPLIB = 13-recursion\libmergesort-re.dll.a
+  TARGET_PDB = mergesort-re.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target n-queens
+
+
+#############################################
+# Order-only phony target for n-queens
+
+build cmake_object_order_depends_target_n-queens: phony || .
+
+build 13-recursion/CMakeFiles/n-queens.dir/n-queens.c.obj: C_COMPILER__n-queens_unscanned_Debug D$:/cpl/2024-cpl-coding-0/13-recursion/n-queens.c || cmake_object_order_depends_target_n-queens
+  DEP_FILE = 13-recursion\CMakeFiles\n-queens.dir\n-queens.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 13-recursion\CMakeFiles\n-queens.dir
+  OBJECT_FILE_DIR = 13-recursion\CMakeFiles\n-queens.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target n-queens
+
+
+#############################################
+# Link the executable 13-recursion\n-queens.exe
+
+build 13-recursion/n-queens.exe: C_EXECUTABLE_LINKER__n-queens_Debug 13-recursion/CMakeFiles/n-queens.dir/n-queens.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 13-recursion\CMakeFiles\n-queens.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 13-recursion\n-queens.exe
+  TARGET_IMPLIB = 13-recursion\libn-queens.dll.a
+  TARGET_PDB = n-queens.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target hilbert-curve-text
+
+
+#############################################
+# Order-only phony target for hilbert-curve-text
+
+build cmake_object_order_depends_target_hilbert-curve-text: phony || .
+
+build 13-recursion/CMakeFiles/hilbert-curve-text.dir/hilbert-curve-text.c.obj: C_COMPILER__hilbert-curve-text_unscanned_Debug D$:/cpl/2024-cpl-coding-0/13-recursion/hilbert-curve-text.c || cmake_object_order_depends_target_hilbert-curve-text
+  DEP_FILE = 13-recursion\CMakeFiles\hilbert-curve-text.dir\hilbert-curve-text.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 13-recursion\CMakeFiles\hilbert-curve-text.dir
+  OBJECT_FILE_DIR = 13-recursion\CMakeFiles\hilbert-curve-text.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target hilbert-curve-text
+
+
+#############################################
+# Link the executable 13-recursion\hilbert-curve-text.exe
+
+build 13-recursion/hilbert-curve-text.exe: C_EXECUTABLE_LINKER__hilbert-curve-text_Debug 13-recursion/CMakeFiles/hilbert-curve-text.dir/hilbert-curve-text.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 13-recursion\CMakeFiles\hilbert-curve-text.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 13-recursion\hilbert-curve-text.exe
+  TARGET_IMPLIB = 13-recursion\libhilbert-curve-text.dll.a
+  TARGET_PDB = hilbert-curve-text.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 13-recursion/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\cpl\2024-cpl-coding-0\cmake-build-debug\13-recursion && "C:\Users\hfwei\AppData\Local\Programs\CLion 2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 13-recursion/edit_cache: phony 13-recursion/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 13-recursion/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\cpl\2024-cpl-coding-0\cmake-build-debug\13-recursion && "C:\Users\hfwei\AppData\Local\Programs\CLion 2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\cpl\2024-cpl-coding-0 -BD:\cpl\2024-cpl-coding-0\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 13-recursion/rebuild_cache: phony 13-recursion/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build 11-decl: phony 10-function-pointers/11-decl.exe
@@ -3520,6 +4076,14 @@ build bsearch-gnuc: phony 10-function-pointers/bsearch-gnuc.exe
 
 build bsearch-gnuc.exe: phony 10-function-pointers/bsearch-gnuc.exe
 
+build bsearch-iter: phony 13-recursion/bsearch-iter.exe
+
+build bsearch-iter.exe: phony 13-recursion/bsearch-iter.exe
+
+build bsearch-re: phony 13-recursion/bsearch-re.exe
+
+build bsearch-re.exe: phony 13-recursion/bsearch-re.exe
+
 build bsearch.exe: phony 10-function-pointers/bsearch.exe
 
 build char: phony 6-data-types/char.exe
@@ -3562,6 +4126,18 @@ build explict-conversion: phony 6-data-types/explict-conversion.exe
 
 build explict-conversion.exe: phony 6-data-types/explict-conversion.exe
 
+build fib-array: phony 13-recursion/fib-array.exe
+
+build fib-array.exe: phony 13-recursion/fib-array.exe
+
+build fib-iter: phony 13-recursion/fib-iter.exe
+
+build fib-iter.exe: phony 13-recursion/fib-iter.exe
+
+build fib-re: phony 13-recursion/fib-re.exe
+
+build fib-re.exe: phony 13-recursion/fib-re.exe
+
 build float-assoc: phony 6-data-types/float-assoc.exe
 
 build float-assoc.exe: phony 6-data-types/float-assoc.exe
@@ -3590,6 +4166,14 @@ build game-of-life-transformed.exe: phony 5-function/game-of-life-transformed.ex
 
 build game-of-life.exe: phony 4-loops/game-of-life.exe
 
+build gcd-iter: phony 13-recursion/gcd-iter.exe
+
+build gcd-iter.exe: phony 13-recursion/gcd-iter.exe
+
+build gcd-re: phony 13-recursion/gcd-re.exe
+
+build gcd-re.exe: phony 13-recursion/gcd-re.exe
+
 build guess: phony 0-intro/guess.exe
 
 build guess.exe: phony 0-intro/guess.exe
@@ -3597,6 +4181,10 @@ build guess.exe: phony 0-intro/guess.exe
 build hello: phony 0-intro/hello.exe
 
 build hello.exe: phony 0-intro/hello.exe
+
+build hilbert-curve-text: phony 13-recursion/hilbert-curve-text.exe
+
+build hilbert-curve-text.exe: phony 13-recursion/hilbert-curve-text.exe
 
 build implicit-conversion: phony 6-data-types/implicit-conversion.exe
 
@@ -3654,17 +4242,31 @@ build loop: phony 6-data-types/loop.exe
 
 build loop.exe: phony 6-data-types/loop.exe
 
+build main-re: phony 13-recursion/main-re.exe
+
+build main-re.exe: phony 13-recursion/main-re.exe
+
 build memory: phony 7-pointers-arrays/memory.exe
 
 build memory.exe: phony 7-pointers-arrays/memory.exe
 
 build merge: phony 4-loops/merge.exe
 
+build merge-array: phony 13-recursion/merge-array.exe
+
+build merge-array.exe: phony 13-recursion/merge-array.exe
+
 build merge-func: phony 5-function/merge-func.exe
 
 build merge-func.exe: phony 5-function/merge-func.exe
 
 build merge.exe: phony 4-loops/merge.exe
+
+build mergesort-re: phony 13-recursion/mergesort-re.exe
+
+build mergesort-re.exe: phony 13-recursion/mergesort-re.exe
+
+build min: phony 13-recursion/min.exe
 
 build min-array: phony 2-if-for-array/min-array.exe
 
@@ -3682,6 +4284,12 @@ build min-of-two: phony 2-if-for-array/min-of-two.exe
 
 build min-of-two.exe: phony 2-if-for-array/min-of-two.exe
 
+build min-re: phony 13-recursion/min-re.exe
+
+build min-re.exe: phony 13-recursion/min-re.exe
+
+build min.exe: phony 13-recursion/min.exe
+
 build mol: phony 1-types-io/mol.exe
 
 build mol.exe: phony 1-types-io/mol.exe
@@ -3689,6 +4297,10 @@ build mol.exe: phony 1-types-io/mol.exe
 build musician: phony 11-struct/musician.exe
 
 build musician.exe: phony 11-struct/musician.exe
+
+build n-queens: phony 13-recursion/n-queens.exe
+
+build n-queens.exe: phony 13-recursion/n-queens.exe
 
 build padding: phony 11-struct/padding.exe
 
@@ -3794,6 +4406,10 @@ build sphere: phony 1-types-io/sphere.exe
 
 build sphere.exe: phony 1-types-io/sphere.exe
 
+build stairs: phony 13-recursion/stairs.exe
+
+build stairs.exe: phony 13-recursion/stairs.exe
+
 build stars: phony 3-for-a-while/stars.exe
 
 build stars-func: phony 5-function/stars-func.exe
@@ -3826,6 +4442,10 @@ build sum-product: phony 6-data-types/sum-product.exe
 
 build sum-product.exe: phony 6-data-types/sum-product.exe
 
+build sum-re: phony 13-recursion/sum-re.exe
+
+build sum-re.exe: phony 13-recursion/sum-re.exe
+
 build timing-primes: phony 6-data-types/timing-primes.exe
 
 build timing-primes.exe: phony 6-data-types/timing-primes.exe
@@ -3850,7 +4470,7 @@ build unsinged-wrap.exe: phony 6-data-types/unsinged-wrap.exe
 #############################################
 # Folder: D:/cpl/2024-cpl-coding-0/cmake-build-debug
 
-build all: phony 0-intro/all 1-types-io/all 2-if-for-array/all 3-for-a-while/all 4-loops/all 5-function/all 6-data-types/all 7-pointers-arrays/all 8-pointers-c-strings/all 9-double-pointers/all 10-function-pointers/all 11-struct/all 12-linked-list/all
+build all: phony 0-intro/all 1-types-io/all 2-if-for-array/all 3-for-a-while/all 4-loops/all 5-function/all 6-data-types/all 7-pointers-arrays/all 8-pointers-c-strings/all 9-double-pointers/all 10-function-pointers/all 11-struct/all 12-linked-list/all 13-recursion/all
 
 # =============================================================================
 
@@ -3886,6 +4506,13 @@ build 11-struct/all: phony 11-struct/admin-struct.exe 11-struct/musician.exe 11-
 # Folder: D:/cpl/2024-cpl-coding-0/cmake-build-debug/12-linked-list
 
 build 12-linked-list/all: phony 12-linked-list/josephus.exe
+
+# =============================================================================
+
+#############################################
+# Folder: D:/cpl/2024-cpl-coding-0/cmake-build-debug/13-recursion
+
+build 13-recursion/all: phony 13-recursion/main-re.exe 13-recursion/stairs.exe 13-recursion/min.exe 13-recursion/min-re.exe 13-recursion/sum-re.exe 13-recursion/fib-re.exe 13-recursion/fib-iter.exe 13-recursion/fib-array.exe 13-recursion/gcd-re.exe 13-recursion/gcd-iter.exe 13-recursion/bsearch-iter.exe 13-recursion/bsearch-re.exe 13-recursion/merge-array.exe 13-recursion/mergesort-re.exe 13-recursion/n-queens.exe 13-recursion/hilbert-curve-text.exe
 
 # =============================================================================
 
@@ -3950,14 +4577,14 @@ build 9-double-pointers/all: phony 9-double-pointers/selection-sort-ints.exe 9-d
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/cpl/2024-cpl-coding-0/0-intro/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/1-types-io/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/10-function-pointers/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/11-struct/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/12-linked-list/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/2-if-for-array/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/3-for-a-while/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/4-loops/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/5-function/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/6-data-types/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/7-pointers-arrays/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/8-pointers-c-strings/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/9-double-pointers/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/cpl/2024-cpl-coding-0/0-intro/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/1-types-io/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/10-function-pointers/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/11-struct/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/12-linked-list/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/13-recursion/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/2-if-for-array/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/3-for-a-while/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/4-loops/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/5-function/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/6-data-types/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/7-pointers-arrays/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/8-pointers-c-strings/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/9-double-pointers/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/cpl/2024-cpl-coding-0/0-intro/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/1-types-io/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/10-function-pointers/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/11-struct/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/12-linked-list/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/2-if-for-array/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/3-for-a-while/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/4-loops/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/5-function/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/6-data-types/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/7-pointers-arrays/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/8-pointers-c-strings/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/9-double-pointers/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/CMakeLists.txt: phony
+build C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Users/hfwei/AppData/Local/Programs/CLion$ 2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/cpl/2024-cpl-coding-0/0-intro/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/1-types-io/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/10-function-pointers/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/11-struct/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/12-linked-list/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/13-recursion/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/2-if-for-array/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/3-for-a-while/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/4-loops/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/5-function/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/6-data-types/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/7-pointers-arrays/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/8-pointers-c-strings/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/9-double-pointers/CMakeLists.txt D$:/cpl/2024-cpl-coding-0/CMakeLists.txt: phony
 
 
 #############################################
