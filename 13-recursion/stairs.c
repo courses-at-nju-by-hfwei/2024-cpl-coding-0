@@ -6,9 +6,10 @@
 #include <stdio.h>
 
 void WalkdownStairsIteration(int n);
+void WalkdownStairsRecursion(int n);
 
 int main(void) {
-  WalkdownStairsIteration(5);
+  WalkdownStairsRecursion(5);
 
   return 0;
 }
@@ -18,4 +19,14 @@ void WalkdownStairsIteration(int n) {
     printf("Walk down from %d to %d\n", n, n - 1);
     n--;
   }
+}
+
+void WalkdownStairsRecursion(int n) {
+  if (n == 1) {
+    return;
+  }
+
+  printf("Walk down from %d to %d\n", n, n - 1);
+  WalkdownStairsRecursion(n - 1);  // ask the Mirror
+  // combine solutions to sub-problems
 }

@@ -23,7 +23,7 @@ int Min(const int nums[], int len) {
     return nums[0];
   }
 
-  int partial_min = Min(nums, len - 1);
+  int partial_min = Min(nums, len - 1);  // ask the Mirror
 
   return partial_min < nums[len - 1] ? partial_min : nums[len - 1];
 }
