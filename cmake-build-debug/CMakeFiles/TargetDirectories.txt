@@ -136,3 +136,7 @@ D:/cpl/2024-cpl-coding-0/cmake-build-debug/13-recursion/CMakeFiles/n-queens.dir
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/13-recursion/CMakeFiles/hilbert-curve-text.dir
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/13-recursion/CMakeFiles/edit_cache.dir
 D:/cpl/2024-cpl-coding-0/cmake-build-debug/13-recursion/CMakeFiles/rebuild_cache.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/seu-recursion/CMakeFiles/seu-min-re.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/seu-recursion/CMakeFiles/seu-stairs.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/seu-recursion/CMakeFiles/edit_cache.dir
+D:/cpl/2024-cpl-coding-0/cmake-build-debug/seu-recursion/CMakeFiles/rebuild_cache.dir
